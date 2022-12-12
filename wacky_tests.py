@@ -94,7 +94,7 @@ def execute_test_command(cmd):
     # Allow player IDs
     if cmd == 'num_played_games_for_player':
         w.num_played_games_for_player(
-            random_player_id(include_removed = true))
+            random_player_id(include_removed = True))
 
     # TODO: also test for removed players
     if cmd == 'add_player_cards':
@@ -102,7 +102,7 @@ def execute_test_command(cmd):
 
     if cmd == 'get_player_cards':
         w.get_player_cards(
-            random_player_id(include_removed = true))
+            random_player_id(include_removed = True))
 
     if cmd == 'get_team_points':
         w.get_team_points(random_team_ID())
