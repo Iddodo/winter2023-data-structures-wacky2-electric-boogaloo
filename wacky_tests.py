@@ -121,9 +121,7 @@ for ID in teams:
     w.add_team(ID)
 
 for ID in players:
-    r = [random_positive_integer() for i in range(0, 3)]
-    w.add_player(ID, random_team_ID(), 1, r[0], r[1], r[2], random.choice(True, False))
-
+    w_new_player(ID)
 
 for i in range(0, num_commands):
     execute_test_command(random.choice(test_commands))
