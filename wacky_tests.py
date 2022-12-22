@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from Wacky2Unit import Wacky2Unit
+from sympy.combinatorics.permutations import Permutation
 import random
 
 # --- Custom variables for test generation --- #
@@ -30,6 +31,11 @@ def random_player_ID(include_removed = False):
 
 def random_positive_integer():
     return random.randint(1, random_integer_upper_bound)
+
+def random_1to5_permutation():
+    identity = [0,1,2,3,4]
+    random.shuffle(identity)
+    return Permutation(identity)
 
 def new_team_ID():
     return max(teams) + 1
@@ -61,8 +67,9 @@ test_commands = [
 def w_new_player(ID):
     r = [random_positive_integer() for i in range(0, 3)]
     team_ID = random_team_ID()
-    w.add_player(ID, team_ID, 1, r[0], r[1], r[2], random.choice(True, False))
+    w.add_player(ID, team_ID, random_1to5_permutation(), r[0], r[1], r[2], random.choice((True, False)))
 
+    players.append(ID)
     team_players[team_ID].append(ID)
 
 # --- Implementation of runtime commands ---- #
@@ -94,7 +101,7 @@ def execute_test_command(cmd):
     # Allow player IDs
     if cmd == 'num_played_games_for_player':
         w.num_played_games_for_player(
-            random_player_id(include_removed = True))
+            random_player_ID(include_removed = True))
 
     # TODO: also test for removed players
     if cmd == 'add_player_cards':
@@ -102,7 +109,7 @@ def execute_test_command(cmd):
 
     if cmd == 'get_player_cards':
         w.get_player_cards(
-            random_player_id(include_removed = True))
+            random_player_ID(include_removed = True))
 
     if cmd == 'get_team_points':
         w.get_team_points(random_team_ID())
@@ -126,5 +133,5 @@ for ID in players:
 for i in range(0, num_commands):
     execute_test_command(random.choice(test_commands))
 
-w.write('wacky.in', wacky.out)
+w.write('wacky.in', 'wacky.out')
 w.clear()

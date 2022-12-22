@@ -1,27 +1,90 @@
 #!/usr/bin/env python3
 from dataclasses import dataclass
 from sympy.combinatorics.permutations import Permutation
+import functools
+
+class Team:
+    def __init__(self, ID, points, players):
+        self.ID = ID
+        self.points = points
+        self.players = players
+
+    def player_exists(self, playerId):
+        for player in self.players:
+            if player.ID == playerId:
+                return True
+
+        return False
+
+    def ability(self):
+        res = self.points
+        for player in self.players:
+            res += player.ability
+
+        return res
+
+    def spirit_permutation(self, playerId = None):
+        upper_bound = len(self.players) if not (playerId and self.player_exists(playerId)) else self.players.index(playerId) + 1
+        res = Permutation([[0,1,2,3,4]])
+
+        for player in self.players[:upper_bound]:
+            res *= player.spirit
+
+        return res
+
+    # Called strength in t_permutation
+    # sympy permutations start from zero, therefore Python 'ai' is cpp 'a[i] + 1'
+    def spirit(self):
+
+        s = 0
+        perm = self.spirit_permutation()
+
+        for i, ai in perm:
+            s += (i * 1) * ((ai + 1) + 1)
+
+        return s
+
+    def increment_player_games(self):
+        for player in self.players:
+            player.games_played += 1
+
+    def has_goalkeeper(self):
+        for player in self.players:
+            if player.is_goalkeeper:
+                return True
+        return False
+
+
+@dataclass
+class Player:
+    ID: int
+    games_played: int
+    team: Team
+    cards: int
+    is_goalkeeper: bool
+    ability: int
+    spirit: Permutation
 
 class Wacky2Unit:
     def __init__(self):
         self.expected = []
         self.input = []
-        self.teams = []
-        self.players = []
+        self.teams = {}
+        self.players = {}
         self.removed_players = []
 
     def __add_input(self, input_list):
         self.input.append(' '.join([str(x) for x in input_list]))
 
     def __add_expected(self, keycode, status, more = None):
-        expected_output.append(str(keycode) + ': ' + str(status) + ('' if more == None else ', ' + str(more)))
+        self.expected.append(str(keycode) + ': ' + str(status) + ('' if more == None else ', ' + str(more)))
 
     def __add_expected_raw(self, text):
-        expected.append(text)
+        self.expected.append(text)
 
     def write(self, in_file, out_file):
-        f_test = open(self.in_file, 'w')
-        f_expected = open(self.out_file, 'w')
+        f_test = open(in_file, 'w')
+        f_expected = open(out_file, 'w')
 
         f_test.write('\n'.join(self.input))
         f_expected.write('\n'.join(self.expected) + '\n')
@@ -33,61 +96,7 @@ class Wacky2Unit:
         self.expected = []
         self.input = []
 
-    # -----------------------------------
 
-    class Team:
-        def __init__(self, ID, points, players):
-            self.ID = ID
-            self.points = points
-            self.players = players
-
-        def ability(self):
-            res = self.points
-            for player in self.players:
-                res += player.ability
-
-            return res
-
-        def spirit_permutation(self, playerId = None):
-            upper_bound = self.players.index(playerId) + 1 if playerId else len(self.players)
-            res = Permutation([[1,2,3,4,5]])
-
-            for player in self.players[:upper_bound]:
-                res *= player.spirit
-
-            return res
-
-        # Called strength in t_permutation
-        def spirit(self):
-
-            s = 0
-            perm = self.spirit_permutation()
-
-            for i, ai in perm:
-                s += (i * 1) * (ai + 1)
-
-            return s
-
-        def increment_player_games(self):
-            for players in self.players:
-                player.games_played += 1
-
-        def has_goalkeeper(self):
-            for players in self.players:
-                if player.is_goalkeeper:
-                    return True
-            return False
-
-
-    @dataclass
-    class Player:
-        ID: int
-        games_played: int
-        team: Team
-        cards: int
-        is_goalkeeper: bool
-        ability: int
-        spirit: Permutation
     # ----------------------------------------
 
     def add_team(self, teamId):
@@ -101,7 +110,7 @@ class Wacky2Unit:
             self.__add_expected('add_team', 'FAILURE')
             return
 
-        teams[teamId] = Team(ID = teamId, points = 0, teams = [])
+        self.teams[teamId] = Team(ID = teamId, points = 0, players = [])
         self.__add_expected('add_team', 'SUCCESS')
 
 
@@ -118,15 +127,15 @@ class Wacky2Unit:
 
         # Remove players from tournament, add to removed players
         for player in self.teams[teamId].players:
-            self.players.remove(player)
+            del self.players[player.ID]
             self.removed_players.append(player)
 
         del self.teams[teamId]
         self.__add_expected('remove_team', 'SUCCESS')
 
-    def add_player(self, playedId, teamId, spirit, gamesPlayed, ability, goalKeeper):
+    def add_player(self, playerId, teamId, spirit, gamesPlayed, ability, cards, goalKeeper):
         # TODO: figure out how to print spirit
-        self.__add_input(['add_player', playerId, teamId, spirit, gamesPlayed, ability, 'true' if goalKeeper else 'false'])
+        self.__add_input(['add_player', playerId, teamId, spirit, gamesPlayed, ability, cards, 'true' if goalKeeper else 'false'])
         invalid_input = False
 
         if playerId <= 0 or teamId <= 0:
@@ -148,9 +157,9 @@ class Wacky2Unit:
             self.__add_expected('add_player', 'FAILURE')
             return
 
-        team = teams[teamId]
+        team = self.teams[teamId]
 
-        players[playerId] = Player(
+        self.players[playerId] = Player(
             ID = playerId,
             games_played = gamesPlayed,
             team = team,
@@ -160,12 +169,13 @@ class Wacky2Unit:
             spirit = spirit
         )
 
-        team.players.append(players[playerId])
+        team.players.append(self.players[playerId])
 
         self.__add_expected('add_player', 'SUCCESS')
 
 
-    def play_match(self, teamId1, teamId2):
+    def
+play_match(self, teamId1, teamId2):
         self.__add_input(['play_match', teamId1, teamId2])
 
         if (teamId1 <= 0) or (teamId2 <= 0) or (teamId1 == teamId2):
@@ -186,6 +196,7 @@ class Wacky2Unit:
 
         TIE, ABILITY1, SPIRIT1, ABILITY2, SPIRIT2 = range(0,5)
         winner = None
+        winner_code = TIE
 
         if team1.ability() != team2.ability():
             winner_code = ABILITY1 if team1.ability() > team2.ability() else ABILITY2
@@ -205,7 +216,7 @@ class Wacky2Unit:
 
     def num_played_games_for_player(self, playerId):
         func = 'num_played_games_for_player'
-        self.__add_input([func, teamId1, teamId2])
+        self.__add_input([func, playerId])
 
         if playerId <= 0:
             self.__add_expected(func, 'INVALID_INPUT')
@@ -223,7 +234,7 @@ class Wacky2Unit:
 
     def add_player_cards(self, playerId, cards):
         func = 'add_player_cards'
-        self.__add_input([func, teamId1, teamId2])
+        self.__add_input([func, playerId, cards])
 
         if playerId <= 0 or cards < 0:
             self.__add_expected(func, 'INVALID_INPUT')
@@ -282,10 +293,10 @@ class Wacky2Unit:
 
         teams_by_ability = [
             {
-                'teamId': team.ID,
-                'ability': team.ability()
+                'teamId': ID,
+                'ability': self.teams[ID].ability()
             }
-            for team in self.teams
+            for ID in self.teams
         ]
 
         def sort_dicts_by_ability(d1, d2):
