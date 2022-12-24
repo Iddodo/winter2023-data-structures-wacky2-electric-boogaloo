@@ -99,8 +99,29 @@ class Wacky2Unit:
     def clear(self):
         self.expected = []
         self.input = []
+        self.teams = {}
+        self.players = {}
+        self.removed_players = []
 
     # ----------------------------------------
+
+    def __permutation_string(self, perm):
+        return ','.join(str(e) for e in list(perm))
+
+    def __is_valid_permutation(self, perm):
+        if len(list(perm)) != 5: return False
+
+        histogram = {e: 0 for e in range(0,5)}
+
+        for e in perm:
+            histogram[e] += 1
+
+        for e in range(0,5):
+            if histogram[e] != 1:
+                return False
+
+        return True
+
 
     def add_team(self, teamId):
         self.__add_input(['add_team', teamId])
@@ -136,22 +157,19 @@ class Wacky2Unit:
         self.__add_expected('remove_team', 'SUCCESS')
 
     def add_player(self, playerId, teamId, spirit, gamesPlayed, ability, cards, goalKeeper):
-        # TODO: figure out how to print spirit
         self.__add_input(
-            ['add_player', playerId, teamId, spirit, gamesPlayed, ability, cards, 'true' if goalKeeper else 'false'])
+            ['add_player', playerId, teamId, self.__permutation_string(spirit), gamesPlayed, ability, cards, 'true' if goalKeeper else 'false'])
         invalid_input = False
 
         if playerId <= 0 or teamId <= 0:
-            invalid_input = True
+            self.__add_expected('add_player', 'INVALID_INPUT')
+            return
 
-        # TODO: invalid input in case of "invalid spirit"
-        if True:
-            pass
+        if not self.__is_valid_permutation(spirit):
+            self.__add_expected('add_player', 'INVALID_INPUT')
+            return
 
         if gamesPlayed < 0 or cards < 0:
-            invalid_input = True
-
-        if invalid_input:
             self.__add_expected('add_player', 'INVALID_INPUT')
             return
 
@@ -189,7 +207,6 @@ class Wacky2Unit:
         team1 = self.teams[teamId1]
         team2 = self.teams[teamId2]
 
-        # TODO: make sure this is the correct return value
         if not (team1.has_goalkeeper() and team2.has_goalkeeper()):
             self.__add_expected('play_match', 'FAILURE')
             return
@@ -206,6 +223,14 @@ class Wacky2Unit:
 
             if str1 != str2:
                 winner_code = SPIRIT1 if str1 > str2 else SPIRIT2
+
+        if winner_code in [ABILITY1, SPIRIT1]:
+            team1.points += 3
+        elif winner_code in [ABILITY2, SPIRIT2]:
+            team2.points += 3
+        else:
+            team1.points += 1
+            team2.points += 1
 
         # Increment games_played for every player
         team1.increment_player_games()
@@ -318,10 +343,9 @@ class Wacky2Unit:
             self.__add_expected(func, 'FAILURE')
             return
 
-        # TODO: figure out how to print spirit
         perm = self.players[playerId].team.spirit_permutation(playerId=playerId)
 
-        self.__add_expected(func, 'SUCCESS', perm)
+        self.__add_expected(func, 'SUCCESS', self.__permutation_string(perm))
 
     def buy_team(self, buyerId, boughtId):
         func = 'buy_team'
@@ -349,5 +373,7 @@ class Wacky2Unit:
         # Update bought team player's 'team' prop
         for player in bought.players:
             player.team = buyer
+
+        del self.teams[boughtId]
 
         self.__add_expected(func, 'SUCCESS')

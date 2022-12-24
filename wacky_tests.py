@@ -3,26 +3,31 @@
 from Wacky2Unit import Wacky2Unit
 from sympy.combinatorics.permutations import Permutation
 import random
+import os
 
 # --- Custom variables for test generation --- #
 
 num_players = 10
 num_teams = 5
-num_commands = 20
+num_commands = 1000
+num_tests = 10
 random_integer_upper_bound = 300
 
 # --- Player and team ID lists --- #
+initial_players = [i for i in range(1, num_players + 1)]
+initial_teams = [i for i in range(1, num_teams + 1)]
 
-players = [i for i in range(1, num_players + 1)]
-initial_players = players.copy()
-teams = [i for i in range(1, num_teams + 1)]
+players = initial_players.copy()
 removed_players = []
-
+teams = initial_teams.copy()
 team_players = {ID: [] for ID in teams}
-
 
 # --- Functions to fetch relevant random values --- #
 def random_team_ID():
+    # This will not happen
+    if not teams:
+        return -1
+
     return random.choice(teams)
 
 
@@ -44,10 +49,14 @@ def random_1to5_permutation():
 
 
 def new_team_ID():
+    if not teams:
+        return 1
     return max(teams) + 1
 
 
 def new_player_ID():
+    if not players:
+        return 1
     return max(players) + 1
 
 
@@ -76,6 +85,9 @@ def w_new_player(ID):
     team_ID = random_team_ID()
     w.add_player(ID, team_ID, random_1to5_permutation(), r[0], r[1], r[2], random.choice((True, False)))
 
+    if 'SUCCESS' not in  w.expected[-1]:
+        return
+
     players.append(ID)
     team_players[team_ID].append(ID)
 
@@ -88,8 +100,15 @@ def execute_test_command(cmd):
         w.add_team(new_team_ID())
 
     if cmd == 'remove_team':
+        # Do not allow a team to be removed if only one team exists (annoying endcase)
+        if len(teams) <= 0:
+            return
+
         team_ID = random_team_ID()
         w.remove_team(team_ID)
+
+        if 'SUCCESS' not in w.expected[-1]:
+            return
 
         for player_ID in team_players[team_ID]:
             players.remove(player_ID)
@@ -131,14 +150,28 @@ def execute_test_command(cmd):
         w.buy_team(random_team_ID(), random_team_ID())
 
 
-for ID in teams:
-    w.add_team(ID)
+# --- Run tests and write to directories
+if not os.path.exists("./in"):
+    os.makedirs("in")
 
-for ID in initial_players:
-    w_new_player(ID)
+if not os.path.exists("./out"):
+    os.makedirs("out")
 
-for i in range(0, num_commands):
-    execute_test_command(random.choice(test_commands))
 
-w.write('wacky.in', 'wacky.out')
-w.clear()
+for i in range(1, num_tests + 1):
+    for ID in teams:
+        w.add_team(ID)
+
+    for ID in initial_players:
+        w_new_player(ID)
+
+    for j in range(0, num_commands):
+        execute_test_command(random.choice(test_commands))
+
+    w.write(f'./in/input{i}.in', f'./out/output{i}.out')
+    w.clear()
+
+    players = initial_players.copy()
+    removed_players = []
+    teams = initial_teams.copy()
+    team_players = {ID: [] for ID in teams}
