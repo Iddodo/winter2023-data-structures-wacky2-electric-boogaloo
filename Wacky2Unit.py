@@ -42,7 +42,7 @@ class Team:
         s = 0
         perm = self.spirit_permutation()
 
-        for i, ai in perm:
+        for i, ai in enumerate(perm):
             s += (i * 1) * ((ai + 1) + 1)
 
         return s

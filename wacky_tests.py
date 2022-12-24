@@ -7,10 +7,10 @@ import os
 
 # --- Custom variables for test generation --- #
 
-num_players = 10
-num_teams = 5
+num_players = 1000
+num_teams = 100
 num_commands = 1000
-num_tests = 10
+num_tests = 100
 random_integer_upper_bound = 300
 
 # --- Player and team ID lists --- #
@@ -75,6 +75,8 @@ test_commands = [
     'buy_team',
 ]
 
+# Need a higher probability of adding players
+test_commands += 2 * ['add_player']
 
 def w_new_player(ID):
     r = [random_positive_integer() for i in range(0, 3)]
