@@ -117,7 +117,14 @@ def execute_test_command(cmd):
         w_new_player(new_player_ID())
 
     if cmd == 'play_match':
-        w.play_match(random_team_ID(), random_team_ID())
+        team1 = random_team_ID()
+        team2 = random_team_ID()
+
+        if len(teams) > 1:
+            while (team2 == team1):
+                team2 = random_team_ID()
+
+        w.play_match(team1, team2)
 
     # Allow player IDs
     if cmd == 'num_played_games_for_player':
