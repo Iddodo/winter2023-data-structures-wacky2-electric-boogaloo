@@ -24,10 +24,6 @@ team_players = {ID: [] for ID in teams}
 
 # --- Functions to fetch relevant random values --- #
 def random_team_ID():
-    # This will not happen
-    if not teams:
-        return -1
-
     return random.choice(teams)
 
 
@@ -101,7 +97,7 @@ def execute_test_command(cmd):
 
     if cmd == 'remove_team':
         # Do not allow a team to be removed if only one team exists (annoying endcase)
-        if len(teams) <= 0:
+        if len(teams) <= 1:
             return
 
         team_ID = random_team_ID()
