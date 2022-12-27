@@ -25,11 +25,9 @@ class Team:
         return res
 
     def spirit_permutation(self, playerId=None):
-        upper_bound = len(self.players) if not (playerId and self.player_exists(playerId)) else len(
-            self.players) if not (playerId and self.player_exists(playerId)) else [i.ID for i in self.players].index(
-            playerId) + 1
-        res = Permutation([[0, 1, 2, 3, 4]])
-
+        upper_bound = len(self.players) if not (playerId and self.player_exists(playerId)) else ([i.ID for i in self.players].index(
+            playerId) + 1)
+        res = Permutation([0, 1, 2, 3, 4])
         for player in self.players[:upper_bound]:
             res *= player.spirit
 
@@ -106,7 +104,7 @@ class Wacky2Unit:
     # ----------------------------------------
 
     def __permutation_string(self, perm):
-        return ','.join(str(e) for e in list(perm))
+        return ','.join(str(e + 1) for e in list(perm))
 
     def __is_valid_permutation(self, perm):
         if len(list(perm)) != 5: return False

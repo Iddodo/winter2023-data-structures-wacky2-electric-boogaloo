@@ -7,10 +7,10 @@ import os
 
 # --- Custom variables for test generation --- #
 
-num_players = 1000
-num_teams = 100
-num_commands = 1000
-num_tests = 100
+num_players = 1
+num_teams = 1
+num_commands = 10
+num_tests = 1
 random_integer_upper_bound = 300
 
 # --- Player and team ID lists --- #
