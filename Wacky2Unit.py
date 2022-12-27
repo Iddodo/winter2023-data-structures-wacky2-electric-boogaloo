@@ -1,6 +1,7 @@
-#!/usr/bin/env python3
+#! import numpy as np
+#/usr/bin/env python3
 from dataclasses import dataclass
-from sympy.combinatorics.permutations import Permutation
+import numpy
 import functools
 
 
@@ -27,9 +28,9 @@ class Team:
     def spirit_permutation(self, playerId=None):
         upper_bound = len(self.players) if not (playerId and self.player_exists(playerId)) else ([i.ID for i in self.players].index(
             playerId) + 1)
-        res = Permutation([0, 1, 2, 3, 4])
+        res = numpy.array([0,1,2,3,4])
         for player in self.players[:upper_bound]:
-            res *= player.spirit
+            res = res[player.spirit]
 
         return res
 
@@ -64,7 +65,7 @@ class Player:
     cards: int
     is_goalkeeper: bool
     ability: int
-    spirit: Permutation
+    spirit: numpy.ndarray
 
 
 class Wacky2Unit:
@@ -155,6 +156,7 @@ class Wacky2Unit:
         self.__add_expected('remove_team', 'SUCCESS')
 
     def add_player(self, playerId, teamId, spirit, gamesPlayed, ability, cards, goalKeeper):
+        spirit = numpy.array([e - 1 for e in spirit])
         self.__add_input(
             ['add_player', playerId, teamId, self.__permutation_string(spirit), gamesPlayed, ability, cards, 'true' if goalKeeper else 'false'])
         invalid_input = False

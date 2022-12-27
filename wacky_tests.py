@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from Wacky2Unit import Wacky2Unit
-from sympy.combinatorics.permutations import Permutation
+import numpy
 import random
 import os
 
@@ -39,9 +39,9 @@ def random_positive_integer():
 
 
 def random_1to5_permutation():
-    identity = [0, 1, 2, 3, 4]
+    identity = [1, 2, 3, 4, 5]
     random.shuffle(identity)
-    return Permutation(identity)
+    return identity
 
 
 def new_team_ID():
