@@ -1,0 +1,94 @@
+add_team 1
+add_team 2
+add_player 1 1 1,3,4,5,2 98 11 264 false
+get_ith_pointless_ability 1
+add_player 2 1 3,5,1,2,4 291 100 190 true
+num_played_games_for_player 1
+play_match 1 2
+play_match 2 1
+add_player_cards 2 143
+buy_team 1 2
+add_team 3
+remove_team 2
+get_team_points 2
+num_played_games_for_player 2
+add_team 3
+play_match 2 1
+add_team 3
+add_player 3 1 4,1,2,5,3 52 295 263 false
+add_player 4 2 1,4,2,3,5 262 105 28 false
+add_player_cards 3 182
+get_team_points 2
+add_team 3
+get_player_cards 1
+add_player 4 1 5,2,4,1,3 164 106 23 true
+get_team_points 2
+add_player_cards 2 76
+buy_team 1 1
+remove_team 2
+add_player_cards 2 158
+get_partial_spirit 1
+get_player_cards 1
+get_player_cards 1
+get_player_cards 4
+get_team_points 1
+get_player_cards 2
+get_partial_spirit 2
+get_ith_pointless_ability 1
+add_player 5 1 1,5,2,3,4 81 229 92 false
+get_team_points 2
+add_player 6 2 5,4,1,2,3 213 115 259 true
+add_player 6 2 5,2,1,4,3 135 62 56 false
+get_partial_spirit 1
+remove_team 1
+get_ith_pointless_ability 0
+add_player 2 2 5,3,2,4,1 12 48 35 true
+add_player 2 2 2,4,3,5,1 210 156 125 false
+get_partial_spirit 1
+add_player_cards 1 182
+add_player 2 2 1,5,3,2,4 21 32 131 true
+add_player_cards 1 153
+add_player_cards 1 242
+add_player 2 2 2,5,3,1,4 229 203 106 false
+add_team 3
+get_team_points 2
+get_partial_spirit 1
+get_ith_pointless_ability 1
+add_team 3
+play_match 2 2
+play_match 2 2
+get_team_points 2
+get_player_cards 1
+get_ith_pointless_ability 0
+add_team 3
+add_player 2 2 4,2,3,5,1 50 55 206 false
+add_player 2 2 4,2,1,5,3 246 14 119 true
+add_player_cards 1 92
+get_ith_pointless_ability 0
+add_player 2 2 4,1,5,3,2 26 56 250 true
+play_match 2 2
+play_match 2 2
+num_played_games_for_player 1
+add_player 2 2 1,4,2,5,3 87 279 176 true
+add_player 2 2 1,2,3,5,4 229 284 175 false
+get_player_cards 2
+add_player 2 2 1,3,5,4,2 170 100 225 false
+add_player_cards 1 43
+add_player_cards 1 149
+get_ith_pointless_ability 1
+get_team_points 2
+add_player 2 2 1,5,2,4,3 171 278 161 true
+num_played_games_for_player 4
+add_player_cards 1 107
+add_player 2 2 5,1,2,4,3 146 237 96 true
+add_player_cards 1 217
+add_player 2 2 1,4,5,3,2 228 28 179 false
+add_team 3
+num_played_games_for_player 2
+add_player_cards 1 132
+add_player_cards 1 9
+num_played_games_for_player 4
+get_partial_spirit 1
+buy_team 2 2
+num_played_games_for_player 2
+add_player 2 2 5,1,3,4,2 62 189 166 false

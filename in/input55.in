@@ -1,0 +1,83 @@
+add_team 1
+add_team 2
+add_player 1 2 5,2,4,1,3 16 169 85 false
+add_team 3
+add_player 2 1 3,4,2,5,1 227 92 109 false
+remove_team 2
+get_team_points 1
+get_partial_spirit 2
+add_team 2
+get_team_points 1
+get_partial_spirit 2
+get_player_cards 1
+play_match 1 1
+buy_team 1 1
+play_match 1 1
+get_team_points 1
+add_player 3 1 3,2,1,5,4 9 97 284 true
+get_ith_pointless_ability 1
+buy_team 1 1
+add_player 4 1 2,4,5,3,1 146 200 294 true
+add_team 2
+get_partial_spirit 1
+get_partial_spirit 1
+add_player 5 1 5,4,2,3,1 146 83 166 true
+add_player 6 1 2,5,1,4,3 44 142 261 true
+add_team 2
+num_played_games_for_player 1
+add_player 7 1 2,4,3,1,5 112 235 135 true
+get_partial_spirit 1
+buy_team 1 1
+get_team_points 1
+get_ith_pointless_ability 0
+add_player_cards 5 26
+add_player 8 1 4,5,2,3,1 75 38 17 true
+buy_team 1 1
+add_player_cards 1 261
+play_match 1 1
+add_team 2
+add_team 2
+add_player 9 1 1,5,4,2,3 272 184 230 false
+get_team_points 1
+add_player 10 1 3,1,4,2,5 178 211 214 false
+add_player 11 1 2,3,1,4,5 195 252 14 true
+add_team 2
+add_team 2
+add_team 2
+get_player_cards 5
+get_ith_pointless_ability 1
+num_played_games_for_player 9
+add_player 12 1 2,4,5,3,1 56 29 291 false
+play_match 1 1
+add_team 2
+add_player 13 1 3,4,5,2,1 4 265 144 false
+get_ith_pointless_ability 1
+add_player_cards 5 290
+get_player_cards 8
+num_played_games_for_player 13
+play_match 1 1
+add_player 14 1 5,2,3,1,4 21 225 206 true
+get_partial_spirit 12
+num_played_games_for_player 8
+play_match 1 1
+get_ith_pointless_ability 0
+add_player_cards 5 46
+get_player_cards 13
+add_player_cards 10 294
+get_player_cards 12
+buy_team 1 1
+add_player 15 1 4,1,3,5,2 46 124 132 false
+add_player 16 1 5,1,4,3,2 87 130 25 false
+add_player 17 1 4,1,3,2,5 211 52 60 true
+add_player 18 1 4,2,1,5,3 183 7 300 false
+buy_team 1 1
+add_team 2
+num_played_games_for_player 15
+get_partial_spirit 6
+play_match 1 1
+get_ith_pointless_ability 0
+add_team 2
+get_partial_spirit 13
+add_team 2
+get_partial_spirit 13
+num_played_games_for_player 6

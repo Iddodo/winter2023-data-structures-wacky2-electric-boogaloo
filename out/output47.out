@@ -1,0 +1,81 @@
+add_team: SUCCESS
+add_team: SUCCESS
+add_player: SUCCESS
+play_match: FAILURE
+get_player_cards: SUCCESS, 45
+add_player_cards: SUCCESS
+remove_team: SUCCESS
+get_team_points: SUCCESS, 0
+get_ith_pointless_ability: FAILURE
+play_match: INVALID_INPUT
+buy_team: INVALID_INPUT
+get_partial_spirit: FAILURE
+add_player: SUCCESS
+get_player_cards: FAILURE
+add_team: SUCCESS
+get_partial_spirit: FAILURE
+add_player: SUCCESS
+buy_team: INVALID_INPUT
+get_ith_pointless_ability: SUCCESS, 1
+add_player_cards: SUCCESS
+get_partial_spirit: SUCCESS, 4,5,1,2,3
+add_player_cards: SUCCESS
+buy_team: INVALID_INPUT
+add_player: SUCCESS
+add_player_cards: SUCCESS
+play_match: INVALID_INPUT
+add_player_cards: FAILURE
+add_player: SUCCESS
+play_match: INVALID_INPUT
+add_team: FAILURE
+num_played_games_for_player: SUCCESS, 173
+get_partial_spirit: FAILURE
+add_player: SUCCESS
+add_team: FAILURE
+add_player_cards: SUCCESS
+add_team: FAILURE
+add_player: SUCCESS
+num_played_games_for_player: FAILURE
+add_player: SUCCESS
+num_played_games_for_player: SUCCESS, 181
+get_partial_spirit: SUCCESS, 2,5,3,4,1
+add_team: FAILURE
+get_player_cards: SUCCESS, 519
+add_player: SUCCESS
+get_player_cards: SUCCESS, 47
+get_partial_spirit: SUCCESS, 1,2,3,4,5
+add_player: SUCCESS
+get_player_cards: SUCCESS, 519
+add_team: FAILURE
+get_ith_pointless_ability: SUCCESS, 1
+buy_team: INVALID_INPUT
+num_played_games_for_player: FAILURE
+add_player: SUCCESS
+num_played_games_for_player: SUCCESS, 173
+get_team_points: SUCCESS, 0
+buy_team: INVALID_INPUT
+get_team_points: SUCCESS, 0
+get_player_cards: SUCCESS, 45
+get_player_cards: SUCCESS, 13
+get_partial_spirit: SUCCESS, 2,5,3,4,1
+get_partial_spirit: SUCCESS, 5,4,2,3,1
+get_player_cards: SUCCESS, 251
+add_player: SUCCESS
+add_player_cards: FAILURE
+add_player: SUCCESS
+add_player: SUCCESS
+get_partial_spirit: SUCCESS, 3,2,4,1,5
+add_team: FAILURE
+get_ith_pointless_ability: SUCCESS, 1
+add_player: SUCCESS
+get_ith_pointless_ability: SUCCESS, 1
+add_player: SUCCESS
+get_team_points: SUCCESS, 0
+buy_team: INVALID_INPUT
+add_player: SUCCESS
+get_partial_spirit: SUCCESS, 1,2,3,4,5
+add_player: SUCCESS
+add_player: SUCCESS
+add_team: FAILURE
+add_player: SUCCESS
+add_player: SUCCESS

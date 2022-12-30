@@ -1,0 +1,84 @@
+add_team 1
+add_team 2
+add_player 1 2 2,5,1,3,4 183 227 291 false
+play_match 1 2
+add_team 3
+num_played_games_for_player 1
+add_player 2 2 4,3,1,5,2 134 29 159 false
+buy_team 1 1
+add_player 3 2 1,2,4,3,5 207 155 106 true
+add_player 4 2 4,1,3,5,2 42 182 207 true
+add_player 5 2 2,3,1,5,4 98 204 174 false
+add_player_cards 1 297
+add_team 3
+get_player_cards 2
+buy_team 1 1
+add_player_cards 2 210
+get_partial_spirit 2
+play_match 1 2
+add_team 3
+get_player_cards 2
+add_player 6 1 4,1,2,5,3 74 138 19 true
+play_match 1 2
+add_player_cards 1 38
+num_played_games_for_player 4
+get_player_cards 4
+get_player_cards 6
+add_player 7 1 3,4,2,1,5 106 149 173 false
+add_player 8 2 1,4,2,5,3 269 22 22 false
+get_team_points 1
+add_player_cards 7 100
+remove_team 2
+get_ith_pointless_ability 0
+get_partial_spirit 6
+get_ith_pointless_ability 0
+add_player 8 1 3,4,2,5,1 218 1 151 true
+add_player 9 1 2,3,1,5,4 122 33 17 false
+buy_team 1 1
+get_ith_pointless_ability 1
+get_partial_spirit 1
+play_match 1 1
+get_partial_spirit 7
+buy_team 1 1
+play_match 1 1
+add_player 10 1 3,1,2,5,4 290 280 159 false
+get_player_cards 10
+add_player 11 1 1,5,4,2,3 277 136 206 false
+add_player 12 1 1,2,3,5,4 23 14 171 false
+add_player 13 1 2,5,4,3,1 135 237 103 false
+get_team_points 1
+get_team_points 1
+get_player_cards 11
+add_player 14 1 1,4,2,5,3 62 125 286 false
+add_player 15 1 5,2,1,3,4 106 137 164 false
+num_played_games_for_player 3
+buy_team 1 1
+add_player 16 1 5,4,2,1,3 289 149 190 false
+add_player_cards 6 255
+add_player 17 1 4,3,1,5,2 32 300 45 true
+play_match 1 1
+buy_team 1 1
+add_player 18 1 1,3,4,5,2 33 294 107 false
+add_player_cards 12 191
+play_match 1 1
+add_player 19 1 4,3,1,2,5 195 269 121 true
+add_team 2
+get_ith_pointless_ability 1
+get_partial_spirit 9
+add_player 20 1 2,5,3,4,1 259 299 179 false
+add_player 21 1 5,4,2,1,3 164 269 33 false
+add_team 2
+add_player 22 1 1,5,3,2,4 207 288 194 true
+get_player_cards 8
+add_player 23 1 1,4,5,3,2 286 214 277 true
+play_match 1 1
+add_player 24 1 4,1,3,5,2 57 215 244 false
+add_player 25 1 4,1,2,5,3 258 297 101 true
+get_player_cards 7
+get_ith_pointless_ability 1
+get_team_points 1
+add_player 26 1 5,3,2,1,4 236 298 287 false
+add_player 27 1 2,5,1,3,4 229 62 281 true
+play_match 1 1
+add_team 2
+play_match 1 1

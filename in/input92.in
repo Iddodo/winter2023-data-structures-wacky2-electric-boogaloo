@@ -1,0 +1,89 @@
+add_team 1
+add_team 2
+add_player 1 2 3,4,2,5,1 201 96 164 false
+get_partial_spirit 1
+add_player 2 1 3,4,1,2,5 193 265 264 true
+buy_team 2 2
+buy_team 2 2
+add_player_cards 1 71
+get_team_points 1
+add_team 3
+add_player 3 1 3,1,4,5,2 31 300 245 false
+play_match 1 2
+remove_team 1
+add_player 2 2 3,1,4,2,5 76 95 139 false
+add_player 3 2 2,4,5,3,1 246 283 81 true
+num_played_games_for_player 3
+add_player 4 2 3,5,4,2,1 42 66 184 false
+get_ith_pointless_ability 1
+play_match 2 2
+num_played_games_for_player 3
+add_player 5 2 5,3,4,1,2 44 114 136 false
+add_player 6 2 1,4,2,5,3 52 150 277 true
+get_partial_spirit 1
+play_match 2 2
+buy_team 2 2
+num_played_games_for_player 1
+num_played_games_for_player 6
+get_partial_spirit 5
+add_player 7 2 2,5,1,4,3 273 39 7 false
+add_player 8 2 4,5,1,2,3 203 17 50 true
+buy_team 2 2
+play_match 2 2
+get_team_points 2
+add_team 3
+num_played_games_for_player 2
+num_played_games_for_player 3
+get_player_cards 1
+add_team 3
+get_player_cards 1
+get_ith_pointless_ability 1
+add_player 9 2 4,1,5,2,3 141 218 294 true
+get_player_cards 3
+get_team_points 2
+buy_team 2 2
+get_ith_pointless_ability 0
+get_ith_pointless_ability 0
+buy_team 2 2
+add_player_cards 1 232
+num_played_games_for_player 2
+get_player_cards 3
+get_player_cards 3
+buy_team 2 2
+num_played_games_for_player 2
+buy_team 2 2
+num_played_games_for_player 7
+play_match 2 2
+add_team 3
+get_player_cards 1
+get_player_cards 5
+get_partial_spirit 7
+add_player_cards 4 100
+get_ith_pointless_ability 0
+get_ith_pointless_ability 1
+add_player 10 2 3,4,5,1,2 273 273 251 true
+add_player 11 2 1,3,5,2,4 193 273 44 false
+add_player 12 2 2,3,4,1,5 220 230 216 true
+num_played_games_for_player 3
+get_partial_spirit 6
+get_player_cards 5
+get_partial_spirit 11
+add_player_cards 2 70
+get_partial_spirit 4
+add_player 13 2 3,2,4,1,5 62 203 57 false
+get_ith_pointless_ability 1
+add_player 14 2 4,2,3,1,5 76 227 272 false
+get_team_points 2
+buy_team 2 2
+get_player_cards 5
+buy_team 2 2
+get_ith_pointless_ability 1
+buy_team 2 2
+add_player_cards 8 13
+get_team_points 2
+add_player 15 2 3,5,4,1,2 254 256 145 false
+get_team_points 2
+add_player 16 2 2,4,1,5,3 37 18 114 false
+add_team 3
+buy_team 2 2
+add_player 17 2 2,5,4,1,3 177 190 256 false

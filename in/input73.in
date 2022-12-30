@@ -1,0 +1,89 @@
+add_team 1
+add_team 2
+add_player 1 2 5,4,1,3,2 98 119 27 true
+play_match 2 1
+add_player 2 2 4,3,1,5,2 66 121 40 false
+get_player_cards 2
+get_ith_pointless_ability 0
+num_played_games_for_player 1
+add_player 3 2 5,4,1,2,3 249 8 265 true
+get_player_cards 3
+buy_team 2 2
+add_player_cards 1 272
+add_player 4 2 3,4,5,2,1 271 21 126 true
+add_player 5 1 5,2,1,4,3 208 18 249 true
+add_player 6 2 4,2,3,5,1 55 218 131 false
+add_player 7 1 1,4,2,5,3 107 76 50 true
+play_match 1 2
+get_ith_pointless_ability 2
+buy_team 1 2
+remove_team 1
+add_player_cards 1 192
+add_player 7 2 5,1,4,3,2 56 65 158 true
+play_match 2 2
+add_team 3
+add_team 3
+add_player_cards 2 140
+add_player_cards 1 62
+add_player 7 2 1,4,2,3,5 100 267 146 true
+add_player 7 2 4,3,1,2,5 22 54 104 true
+add_player 7 2 3,2,1,4,5 216 236 102 false
+add_player 7 2 5,1,4,2,3 178 258 1 false
+get_player_cards 7
+buy_team 2 2
+get_team_points 2
+num_played_games_for_player 5
+buy_team 2 2
+get_partial_spirit 1
+get_ith_pointless_ability 1
+add_player_cards 3 273
+get_player_cards 3
+buy_team 2 2
+get_player_cards 6
+buy_team 2 2
+get_ith_pointless_ability 0
+add_player 7 2 1,5,3,2,4 69 180 49 false
+get_player_cards 5
+get_player_cards 1
+add_player 7 2 2,4,3,5,1 294 193 32 true
+add_player 7 2 2,4,5,1,3 124 132 246 true
+add_player 7 2 2,5,1,3,4 69 160 188 false
+buy_team 2 2
+buy_team 2 2
+add_player 7 2 1,2,5,4,3 234 146 201 false
+num_played_games_for_player 2
+get_player_cards 3
+get_ith_pointless_ability 1
+add_team 3
+get_team_points 2
+add_player_cards 6 198
+get_player_cards 7
+add_player 7 2 3,2,5,4,1 228 160 93 true
+get_player_cards 1
+add_player 7 2 1,4,3,5,2 286 89 74 true
+get_team_points 2
+add_player 7 2 3,4,2,1,5 71 274 147 false
+add_player 7 2 1,4,5,2,3 182 128 300 true
+get_ith_pointless_ability 1
+buy_team 2 2
+add_player 7 2 5,1,4,3,2 59 4 65 true
+add_player_cards 4 248
+num_played_games_for_player 5
+add_player_cards 2 118
+buy_team 2 2
+get_partial_spirit 3
+add_player_cards 1 115
+get_partial_spirit 1
+get_ith_pointless_ability 0
+get_team_points 2
+buy_team 2 2
+get_partial_spirit 6
+add_player 7 2 4,2,1,5,3 16 245 251 false
+add_player_cards 2 144
+add_team 3
+play_match 2 2
+add_team 3
+get_player_cards 3
+play_match 2 2
+add_player 7 2 5,4,3,1,2 128 52 300 true
+get_team_points 2

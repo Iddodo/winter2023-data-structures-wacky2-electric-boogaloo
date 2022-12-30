@@ -8,16 +8,16 @@ import os
 # --- Custom variables for test generation --- #
 
 num_players = 1
-num_teams = 1
-num_commands = 10
-num_tests = 1
+num_teams = 2
+num_commands = 100
+num_tests = 100
 random_integer_upper_bound = 300
 
 # --- Player and team ID lists --- #
 initial_players = [i for i in range(1, num_players + 1)]
 initial_teams = [i for i in range(1, num_teams + 1)]
 
-players = initial_players.copy()
+players = []
 removed_players = []
 teams = initial_teams.copy()
 team_players = {ID: [] for ID in teams}

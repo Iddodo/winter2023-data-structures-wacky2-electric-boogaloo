@@ -1,0 +1,85 @@
+add_team 1
+add_team 2
+add_player 1 2 3,2,1,4,5 113 6 225 false
+get_ith_pointless_ability 0
+remove_team 1
+add_team 3
+add_player_cards 1 226
+buy_team 2 2
+add_player_cards 1 291
+get_team_points 2
+get_team_points 2
+add_player 2 2 2,3,4,5,1 196 51 251 false
+add_player_cards 1 277
+add_player 3 2 1,2,5,3,4 167 139 101 true
+get_ith_pointless_ability 1
+num_played_games_for_player 1
+add_player 4 2 2,4,5,3,1 283 122 17 false
+get_team_points 2
+add_player_cards 1 119
+add_player 5 2 5,2,3,1,4 11 291 201 false
+add_player_cards 5 7
+add_team 3
+add_team 3
+add_player_cards 3 253
+get_team_points 2
+get_player_cards 4
+add_team 3
+get_ith_pointless_ability 0
+get_partial_spirit 4
+get_ith_pointless_ability 0
+get_partial_spirit 3
+get_partial_spirit 5
+add_team 3
+add_team 3
+num_played_games_for_player 4
+add_player 6 2 5,1,3,2,4 93 140 141 true
+add_player 7 2 1,3,5,4,2 43 228 109 true
+add_player_cards 1 34
+buy_team 2 2
+add_player 8 2 2,5,3,1,4 80 115 76 false
+add_player 9 2 3,4,2,1,5 290 68 217 false
+get_team_points 2
+play_match 2 2
+buy_team 2 2
+add_player 10 2 3,1,4,2,5 51 51 74 false
+buy_team 2 2
+get_ith_pointless_ability 0
+num_played_games_for_player 3
+add_player 11 2 1,2,3,4,5 198 197 198 true
+get_partial_spirit 10
+get_team_points 2
+get_ith_pointless_ability 0
+buy_team 2 2
+num_played_games_for_player 7
+add_team 3
+play_match 2 2
+add_player 12 2 5,4,1,3,2 254 98 180 false
+add_player 13 2 4,1,2,5,3 160 122 123 true
+buy_team 2 2
+add_team 3
+add_player_cards 1 178
+buy_team 2 2
+add_player_cards 3 271
+add_player 14 2 4,2,5,1,3 124 7 260 false
+get_ith_pointless_ability 1
+play_match 2 2
+add_player 15 2 2,3,5,4,1 118 184 251 true
+num_played_games_for_player 5
+get_ith_pointless_ability 0
+add_player 16 2 5,3,4,2,1 292 27 208 true
+get_team_points 2
+add_player_cards 13 243
+get_player_cards 13
+num_played_games_for_player 8
+get_team_points 2
+get_partial_spirit 7
+get_team_points 2
+get_team_points 2
+get_ith_pointless_ability 0
+num_played_games_for_player 1
+add_team 3
+num_played_games_for_player 16
+get_player_cards 16
+num_played_games_for_player 7
+get_ith_pointless_ability 0

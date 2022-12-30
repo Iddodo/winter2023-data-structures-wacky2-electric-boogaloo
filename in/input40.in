@@ -1,0 +1,88 @@
+add_team 1
+add_team 2
+add_player 1 2 2,3,4,1,5 109 13 179 false
+play_match 2 1
+buy_team 2 1
+add_player 2 2 2,4,3,1,5 94 240 90 false
+get_partial_spirit 1
+add_player 3 1 2,3,5,4,1 198 59 167 false
+add_player 3 1 4,2,1,3,5 226 72 184 true
+get_ith_pointless_ability 2
+get_partial_spirit 1
+num_played_games_for_player 1
+add_team 3
+add_player 3 1 3,2,1,5,4 44 249 176 false
+play_match 1 2
+play_match 1 2
+remove_team 1
+add_player 3 2 1,2,3,5,4 74 6 207 false
+remove_team 2
+get_ith_pointless_ability 0
+add_player 2 1 3,5,2,4,1 252 276 39 false
+add_player_cards 1 76
+add_player_cards 1 269
+play_match 1 1
+buy_team 1 1
+add_player 2 1 2,4,1,3,5 297 250 105 false
+add_team 2
+add_player_cards 1 99
+num_played_games_for_player 2
+add_player_cards 1 81
+get_ith_pointless_ability 1
+get_team_points 1
+num_played_games_for_player 1
+num_played_games_for_player 2
+buy_team 1 1
+add_player 2 1 4,3,5,1,2 17 51 237 true
+get_player_cards 3
+get_player_cards 2
+get_player_cards 1
+add_player_cards 1 270
+play_match 1 1
+add_team 2
+get_player_cards 2
+get_team_points 1
+play_match 1 1
+add_team 2
+buy_team 1 1
+get_team_points 1
+num_played_games_for_player 2
+play_match 1 1
+get_partial_spirit 1
+get_player_cards 3
+get_ith_pointless_ability 0
+add_player 2 1 1,4,5,3,2 261 203 61 true
+num_played_games_for_player 2
+add_player 2 1 4,5,2,3,1 47 130 207 false
+num_played_games_for_player 3
+add_player 2 1 1,2,5,3,4 179 170 160 false
+buy_team 1 1
+play_match 1 1
+add_player_cards 1 122
+add_player 2 1 5,2,3,1,4 212 49 196 false
+get_team_points 1
+get_player_cards 1
+add_team 2
+add_player_cards 1 45
+add_team 2
+add_player 2 1 2,5,4,1,3 186 59 164 true
+add_player_cards 1 80
+buy_team 1 1
+num_played_games_for_player 3
+get_partial_spirit 1
+get_partial_spirit 1
+buy_team 1 1
+get_ith_pointless_ability 1
+play_match 1 1
+add_player_cards 1 101
+get_team_points 1
+add_player 2 1 4,1,2,3,5 61 13 247 true
+play_match 1 1
+get_player_cards 2
+get_player_cards 3
+get_team_points 1
+get_partial_spirit 1
+buy_team 1 1
+play_match 1 1
+get_partial_spirit 1
+get_ith_pointless_ability 0

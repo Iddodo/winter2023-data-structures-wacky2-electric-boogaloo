@@ -1,0 +1,91 @@
+add_team: SUCCESS
+add_team: SUCCESS
+add_player: SUCCESS
+play_match: FAILURE
+add_player: SUCCESS
+num_played_games_for_player: SUCCESS, 265
+get_team_points: SUCCESS, 0
+add_player: SUCCESS
+get_player_cards: SUCCESS, 140
+buy_team: SUCCESS
+remove_team: FAILURE
+num_played_games_for_player: SUCCESS, 266
+play_match: FAILURE
+get_ith_pointless_ability: FAILURE
+get_ith_pointless_ability: FAILURE
+add_player: FAILURE
+add_player: FAILURE
+get_team_points: FAILURE
+add_player: SUCCESS
+get_ith_pointless_ability: SUCCESS, 1
+get_ith_pointless_ability: SUCCESS, 1
+num_played_games_for_player: SUCCESS, 29
+get_player_cards: SUCCESS, 282
+get_partial_spirit: SUCCESS, 5,4,3,2,1
+get_player_cards: SUCCESS, 282
+add_player_cards: SUCCESS
+get_team_points: SUCCESS, 0
+add_player_cards: SUCCESS
+get_player_cards: SUCCESS, 140
+add_team: SUCCESS
+get_partial_spirit: SUCCESS, 2,1,4,3,5
+get_team_points: SUCCESS, 0
+get_partial_spirit: SUCCESS, 5,3,2,4,1
+play_match: FAILURE
+remove_team: FAILURE
+buy_team: INVALID_INPUT
+remove_team: FAILURE
+add_player: SUCCESS
+get_team_points: SUCCESS, 0
+get_team_points: FAILURE
+add_player: SUCCESS
+add_player_cards: SUCCESS
+play_match: FAILURE
+buy_team: INVALID_INPUT
+play_match: FAILURE
+add_player: SUCCESS
+num_played_games_for_player: SUCCESS, 266
+add_team: FAILURE
+num_played_games_for_player: SUCCESS, 266
+add_player: SUCCESS
+get_partial_spirit: SUCCESS, 5,4,3,2,1
+buy_team: FAILURE
+add_player_cards: SUCCESS
+num_played_games_for_player: SUCCESS, 266
+get_partial_spirit: SUCCESS, 2,1,4,3,5
+get_ith_pointless_ability: SUCCESS, 3
+num_played_games_for_player: SUCCESS, 41
+play_match: FAILURE
+add_player: FAILURE
+remove_team: SUCCESS
+get_team_points: FAILURE
+add_player_cards: FAILURE
+get_team_points: FAILURE
+get_partial_spirit: FAILURE
+buy_team: INVALID_INPUT
+num_played_games_for_player: FAILURE
+get_partial_spirit: FAILURE
+num_played_games_for_player: FAILURE
+add_player: FAILURE
+get_player_cards: FAILURE
+add_player_cards: FAILURE
+num_played_games_for_player: FAILURE
+num_played_games_for_player: FAILURE
+get_team_points: FAILURE
+play_match: INVALID_INPUT
+num_played_games_for_player: FAILURE
+add_player_cards: FAILURE
+add_player: FAILURE
+add_player_cards: FAILURE
+get_player_cards: FAILURE
+get_team_points: FAILURE
+add_team: FAILURE
+get_partial_spirit: FAILURE
+add_team: FAILURE
+add_player_cards: FAILURE
+get_team_points: FAILURE
+add_team: FAILURE
+add_player: FAILURE
+add_player: FAILURE
+get_partial_spirit: FAILURE
+get_partial_spirit: FAILURE

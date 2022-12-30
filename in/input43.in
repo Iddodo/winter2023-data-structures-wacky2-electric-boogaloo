@@ -1,0 +1,84 @@
+add_team 1
+add_team 2
+add_player 1 1 2,1,3,4,5 84 31 66 false
+add_team 3
+remove_team 1
+add_player 2 2 3,1,2,4,5 139 82 228 false
+get_team_points 2
+play_match 2 2
+add_player_cards 2 82
+play_match 2 2
+buy_team 2 2
+get_team_points 2
+add_player 3 2 4,5,2,3,1 224 50 279 true
+add_player 4 2 3,1,5,4,2 256 8 286 true
+add_player 5 2 3,5,1,2,4 171 38 192 true
+add_team 3
+add_player_cards 5 216
+get_player_cards 1
+get_team_points 2
+add_player 6 2 1,4,5,2,3 279 171 59 true
+add_player 7 2 1,2,4,3,5 103 180 40 true
+get_ith_pointless_ability 0
+add_team 3
+num_played_games_for_player 1
+add_player 8 2 1,3,5,2,4 260 28 254 true
+add_team 3
+add_player 9 2 3,2,5,1,4 249 20 204 false
+play_match 2 2
+get_ith_pointless_ability 1
+add_player 10 2 5,3,1,2,4 249 73 96 true
+add_player 11 2 1,2,3,4,5 123 47 129 false
+get_team_points 2
+get_team_points 2
+add_player 12 2 4,3,1,5,2 94 140 247 true
+get_partial_spirit 9
+play_match 2 2
+add_player_cards 12 299
+get_partial_spirit 4
+play_match 2 2
+play_match 2 2
+buy_team 2 2
+get_partial_spirit 10
+num_played_games_for_player 1
+add_team 3
+num_played_games_for_player 9
+add_player 13 2 3,1,4,5,2 125 26 99 false
+buy_team 2 2
+get_partial_spirit 2
+num_played_games_for_player 10
+get_player_cards 2
+num_played_games_for_player 10
+add_player 14 2 2,3,4,1,5 14 211 277 true
+buy_team 2 2
+num_played_games_for_player 5
+get_player_cards 10
+add_team 3
+get_ith_pointless_ability 0
+get_team_points 2
+add_player 15 2 4,5,2,1,3 90 77 177 true
+add_player_cards 7 134
+add_player 16 2 1,3,2,5,4 184 107 20 false
+add_player_cards 7 250
+get_team_points 2
+add_player_cards 1 42
+get_ith_pointless_ability 0
+num_played_games_for_player 3
+get_partial_spirit 4
+get_team_points 2
+add_team 3
+add_team 3
+get_player_cards 14
+add_team 3
+get_team_points 2
+add_player_cards 2 60
+play_match 2 2
+buy_team 2 2
+add_player 17 2 5,2,4,3,1 258 39 2 false
+num_played_games_for_player 2
+add_player 18 2 2,4,5,1,3 79 201 19 true
+play_match 2 2
+get_player_cards 3
+add_player 19 2 2,5,4,3,1 41 62 137 false
+add_player 20 2 4,5,3,2,1 160 173 93 false
+buy_team 2 2

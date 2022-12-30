@@ -1,0 +1,88 @@
+add_team 1
+add_team 2
+add_player 1 2 5,1,2,4,3 197 88 262 false
+num_played_games_for_player 1
+add_player 2 1 4,3,5,2,1 99 229 141 false
+play_match 2 1
+get_partial_spirit 2
+get_team_points 1
+get_team_points 1
+add_player 3 1 1,2,4,5,3 100 13 219 false
+buy_team 1 1
+remove_team 2
+add_player_cards 1 67
+play_match 1 1
+get_team_points 1
+num_played_games_for_player 1
+num_played_games_for_player 3
+add_player 4 1 4,5,2,3,1 226 43 245 false
+add_player 5 1 1,4,3,5,2 46 195 234 true
+get_player_cards 5
+num_played_games_for_player 2
+buy_team 1 1
+add_player_cards 2 141
+get_partial_spirit 1
+add_player_cards 5 105
+get_team_points 1
+get_ith_pointless_ability 0
+add_team 2
+get_player_cards 5
+add_team 2
+get_ith_pointless_ability 0
+add_player 6 1 5,2,4,1,3 233 7 245 true
+add_player 7 1 4,1,2,5,3 103 231 291 false
+num_played_games_for_player 1
+add_player 8 1 2,1,4,5,3 11 238 12 false
+get_team_points 1
+num_played_games_for_player 1
+add_player 9 1 5,3,4,1,2 236 282 146 false
+add_player 10 1 5,2,1,3,4 256 259 231 true
+get_partial_spirit 2
+add_player 11 1 5,2,3,4,1 43 272 157 false
+add_team 2
+get_team_points 1
+add_player 12 1 1,2,3,4,5 270 262 126 true
+get_player_cards 7
+play_match 1 1
+get_team_points 1
+buy_team 1 1
+play_match 1 1
+add_player 13 1 3,5,2,1,4 248 199 208 true
+add_player 14 1 5,2,3,1,4 116 205 22 false
+add_player 15 1 3,1,2,5,4 56 162 66 true
+get_partial_spirit 12
+add_player 16 1 4,3,2,1,5 43 141 22 false
+get_partial_spirit 2
+buy_team 1 1
+get_team_points 1
+num_played_games_for_player 14
+play_match 1 1
+get_partial_spirit 6
+add_player 17 1 2,5,1,4,3 243 143 255 true
+add_player 18 1 2,1,3,5,4 121 37 121 true
+buy_team 1 1
+add_player_cards 5 104
+get_partial_spirit 6
+add_player 19 1 2,5,3,1,4 128 146 82 true
+num_played_games_for_player 13
+add_player 20 1 3,5,1,2,4 200 119 178 true
+add_team 2
+buy_team 1 1
+add_player 21 1 3,1,5,4,2 267 70 112 true
+get_ith_pointless_ability 0
+add_player_cards 13 282
+buy_team 1 1
+get_team_points 1
+add_player 22 1 2,5,1,3,4 118 47 240 true
+add_player 23 1 3,2,1,5,4 19 155 18 false
+get_team_points 1
+add_player 24 1 2,3,1,5,4 204 155 203 true
+add_team 2
+get_player_cards 7
+add_player 25 1 4,2,1,5,3 221 279 108 false
+buy_team 1 1
+get_team_points 1
+get_team_points 1
+add_player 26 1 5,4,1,3,2 157 52 22 false
+add_player 27 1 2,4,5,1,3 160 114 85 false
+add_player 28 1 3,5,4,1,2 254 40 108 true

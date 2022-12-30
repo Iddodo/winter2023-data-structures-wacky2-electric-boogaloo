@@ -1,0 +1,86 @@
+add_team 1
+add_team 2
+add_player 1 1 2,3,1,5,4 240 296 118 false
+add_team 3
+num_played_games_for_player 1
+add_player 2 2 5,4,2,1,3 29 90 276 false
+remove_team 2
+num_played_games_for_player 2
+add_player 2 1 4,5,2,1,3 259 190 288 false
+get_ith_pointless_ability 1
+get_ith_pointless_ability 0
+get_team_points 1
+add_team 2
+get_partial_spirit 1
+buy_team 1 1
+get_player_cards 1
+get_player_cards 1
+get_team_points 1
+add_player 3 1 3,1,5,2,4 8 99 209 false
+play_match 1 1
+num_played_games_for_player 1
+get_player_cards 1
+add_player 4 1 5,3,1,2,4 169 249 65 false
+add_player 5 1 2,5,1,3,4 190 128 66 true
+buy_team 1 1
+buy_team 1 1
+get_ith_pointless_ability 1
+play_match 1 1
+num_played_games_for_player 1
+num_played_games_for_player 5
+add_player_cards 3 100
+buy_team 1 1
+get_ith_pointless_ability 1
+buy_team 1 1
+get_team_points 1
+get_ith_pointless_ability 0
+add_team 2
+add_team 2
+add_player_cards 4 155
+get_team_points 1
+play_match 1 1
+get_team_points 1
+add_team 2
+add_player 6 1 5,3,1,4,2 185 241 247 false
+play_match 1 1
+add_player 7 1 4,3,1,5,2 38 257 299 false
+get_player_cards 2
+get_player_cards 1
+add_player 8 1 1,3,4,5,2 294 12 22 false
+play_match 1 1
+get_player_cards 1
+num_played_games_for_player 6
+get_player_cards 1
+add_player 9 1 5,4,1,3,2 50 264 220 true
+get_ith_pointless_ability 0
+play_match 1 1
+buy_team 1 1
+num_played_games_for_player 9
+add_player_cards 5 44
+add_team 2
+num_played_games_for_player 3
+play_match 1 1
+add_player 10 1 5,4,1,2,3 300 241 108 false
+get_ith_pointless_ability 1
+add_player 11 1 2,3,5,4,1 79 85 285 false
+add_team 2
+add_player_cards 9 32
+add_player_cards 4 254
+get_player_cards 5
+play_match 1 1
+add_team 2
+add_player 12 1 5,3,1,2,4 33 136 282 true
+add_player 13 1 1,3,2,4,5 30 8 240 false
+num_played_games_for_player 3
+add_team 2
+get_player_cards 6
+buy_team 1 1
+add_team 2
+add_team 2
+add_player 14 1 5,2,3,1,4 26 180 6 false
+get_partial_spirit 1
+add_player 15 1 4,3,2,5,1 131 39 14 true
+add_player_cards 1 244
+add_player 16 1 5,4,2,3,1 29 132 237 true
+add_player 17 1 3,5,1,2,4 199 60 258 false
+add_player 18 1 5,3,4,1,2 197 239 193 true
