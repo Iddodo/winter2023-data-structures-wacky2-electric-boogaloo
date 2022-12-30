@@ -7,9 +7,9 @@ import os
 
 # --- Custom variables for test generation --- #
 
-num_players = 1
+num_players = 2
 num_teams = 2
-num_commands = 100
+num_commands = 10
 num_tests = 100
 random_integer_upper_bound = 300
 
@@ -73,7 +73,6 @@ test_commands = [
     'get_player_cards',
     'get_team_points',
     'get_ith_pointless_ability',
-    'sort_dicts_by_ability',
     'get_partial_spirit',
     'buy_team',
 ]
