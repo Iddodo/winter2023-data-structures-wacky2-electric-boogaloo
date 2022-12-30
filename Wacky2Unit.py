@@ -74,7 +74,7 @@ class Wacky2Unit:
         self.input = []
         self.teams = {}
         self.players = {}
-        self.removed_players = []
+        self.removed_players = {}
 
     def __add_input(self, input_list):
         self.input.append(' '.join([str(x) for x in input_list]))
@@ -100,7 +100,7 @@ class Wacky2Unit:
         self.input = []
         self.teams = {}
         self.players = {}
-        self.removed_players = []
+        self.removed_players = {}
 
     # ----------------------------------------
 
@@ -150,7 +150,7 @@ class Wacky2Unit:
         # Remove players from tournament, add to removed players
         for player in self.teams[teamId].players:
             del self.players[player.ID]
-            self.removed_players.append(player)
+            self.removed_players[player.ID] = player
 
         del self.teams[teamId]
         self.__add_expected('remove_team', 'SUCCESS')

@@ -31,6 +31,9 @@ def random_player_ID(include_removed=False):
     if include_removed:
         return random.choice(players + removed_players)
 
+    if not players:
+        return random.choice(removed_players)
+
     return random.choice(players)
 
 
@@ -176,7 +179,7 @@ for i in range(1, num_tests + 1):
     w.write(f'./in/input{i}.in', f'./out/output{i}.out')
     w.clear()
 
-    players = initial_players.copy()
+    players = []
     removed_players = []
     teams = initial_teams.copy()
     team_players = {ID: [] for ID in teams}
