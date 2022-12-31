@@ -13,6 +13,23 @@ num_commands = 10
 num_tests = 100
 random_integer_upper_bound = 300
 
+test_commands = [
+    'add_team',
+    'remove_team',
+    'add_player',
+    'play_match',
+    'num_played_games_for_player',
+    'add_player_cards',
+    'get_player_cards',
+    'get_team_points',
+    'get_ith_pointless_ability',
+    'get_partial_spirit',
+    'buy_team',
+]
+
+# Need a higher probability of adding players
+test_commands += 2 * ['add_player']
+
 # --- Player and team ID lists --- #
 initial_players = [i for i in range(1, num_players + 1)]
 initial_teams = [i for i in range(1, num_teams + 1)]
@@ -62,23 +79,6 @@ def new_player_ID():
 # --- Randomizing commands ---#
 
 w = Wacky2Unit()
-
-test_commands = [
-    'add_team',
-    'remove_team',
-    'add_player',
-    'play_match',
-    'num_played_games_for_player',
-    'add_player_cards',
-    'get_player_cards',
-    'get_team_points',
-    'get_ith_pointless_ability',
-    'get_partial_spirit',
-    'buy_team',
-]
-
-# Need a higher probability of adding players
-test_commands += 2 * ['add_player']
 
 def w_new_player(ID):
     r = [random_positive_integer() for i in range(0, 3)]
