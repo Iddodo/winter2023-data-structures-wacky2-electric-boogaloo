@@ -19,11 +19,14 @@ class Team:
         return False
 
     def ability(self):
-        res = self.points
+        res = 0
         for player in self.players:
             res += player.ability
 
         return res
+
+    def play_match_ability(self):
+        return self.ability() + self.points
 
     def spirit_permutation(self, playerId=None):
         upper_bound = len(self.players) if not (playerId and self.player_exists(playerId)) else ([i.ID for i in self.players].index(
@@ -215,8 +218,8 @@ class Wacky2Unit:
         winner = None
         winner_code = TIE
 
-        if team1.ability() != team2.ability():
-            winner_code = ABILITY1 if team1.ability() > team2.ability() else ABILITY2
+        if team1.play_match_ability() != team2.play_match_ability():
+            winner_code = ABILITY1 if team1.play_match_ability() > team2.play_match_ability() else ABILITY2
         else:
             str1 = team1.spirit()
             str2 = team2.spirit()
