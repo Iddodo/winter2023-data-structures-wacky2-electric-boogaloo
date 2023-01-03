@@ -97,7 +97,11 @@ def w_new_player(ID):
 # and prevents trivial failure (some failure may still occur).
 def execute_test_command(cmd):
     if cmd == 'add_team':
-        w.add_team(new_team_ID())
+        new_ID = new_team_ID()
+        w.add_team(new_ID)
+        teams.append(new_ID)
+        team_players[new_ID] = []
+
 
     if cmd == 'remove_team':
         # Do not allow a team to be removed if only one team exists (annoying endcase)

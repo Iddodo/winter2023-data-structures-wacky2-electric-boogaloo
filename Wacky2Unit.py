@@ -1,6 +1,4 @@
-#! import numpy as np
-#/usr/bin/env python3
-from dataclasses import dataclass
+#!/usr/bin/env python3
 import numpy
 import functools
 
@@ -60,15 +58,15 @@ class Team:
         return False
 
 
-@dataclass
 class Player:
-    ID: int
-    games_played: int
-    team: Team
-    cards: int
-    is_goalkeeper: bool
-    ability: int
-    spirit: numpy.ndarray
+    def __init__(self, ID, games_played, team, cards, is_goalkeeper, ability, spirit):
+        self.ID = ID
+        self.games_played = games_played
+        self.team = team
+        self.cards = cards
+        self.is_goalkeeper = is_goalkeeper
+        self.ability = ability
+        self.spirit = spirit
 
 
 class Wacky2Unit:
