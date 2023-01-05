@@ -98,1103 +98,1103 @@ add_team 97
 add_team 98
 add_team 99
 add_team 100
-add_player 1 51 2,3,5,1,4 255 239 242 false
-add_player 2 55 1,3,5,2,4 118 161 53 false
-add_player 3 76 2,3,1,5,4 81 239 264 true
-add_player 4 56 5,2,4,3,1 279 110 241 false
-add_player 5 24 4,5,1,3,2 2 270 176 true
-add_player 6 45 1,5,4,3,2 178 141 231 true
-add_player 7 12 1,4,5,3,2 63 69 155 false
-add_player 8 88 5,2,1,4,3 161 214 77 true
-add_player 9 37 5,1,2,4,3 159 131 50 true
-add_player 10 57 5,3,4,1,2 150 193 261 true
-add_player 11 57 3,5,1,2,4 2 228 74 true
-add_player 12 11 4,3,1,2,5 20 293 235 true
-add_player 13 50 5,3,4,2,1 166 150 216 false
-add_player 14 23 1,4,3,2,5 20 143 64 true
-add_player 15 78 2,3,5,1,4 299 83 177 false
-add_player 16 92 2,3,1,5,4 259 25 171 true
-add_player 17 42 2,4,1,3,5 28 100 171 false
-add_player 18 80 5,2,3,1,4 45 106 140 true
-add_player 19 57 5,2,1,4,3 60 9 200 true
-add_player 20 26 2,3,5,4,1 277 42 24 false
-add_player 21 6 4,3,2,5,1 259 151 169 false
-add_player 22 13 3,1,5,4,2 152 157 283 false
-add_player 23 86 1,3,5,2,4 209 157 14 false
-add_player 24 50 4,1,5,2,3 269 197 164 true
-add_player 25 8 4,1,2,5,3 106 235 25 false
-add_player 26 80 3,1,4,2,5 244 44 265 false
-add_player 27 86 1,2,3,5,4 213 33 140 true
-add_player 28 39 1,5,3,4,2 108 186 65 false
-add_player 29 86 5,1,3,2,4 25 225 207 true
-add_player 30 27 4,2,5,1,3 79 221 121 false
-add_player 31 72 2,1,4,3,5 225 103 107 true
-add_player 32 88 5,2,4,3,1 298 149 102 true
-add_player 33 70 1,2,5,4,3 81 205 290 false
-add_player 34 53 2,3,5,1,4 207 30 269 false
-add_player 35 35 2,1,3,5,4 255 41 114 false
-add_player 36 10 1,2,3,5,4 216 215 167 true
-add_player 37 96 5,2,1,3,4 11 174 6 true
-add_player 38 88 4,5,2,3,1 251 192 64 false
-add_player 39 31 2,3,1,5,4 187 72 95 true
-add_player 40 89 1,3,2,4,5 250 51 114 true
-add_player 41 90 3,1,4,5,2 36 52 100 true
-add_player 42 99 1,5,4,2,3 227 186 235 true
-add_player 43 4 1,3,4,2,5 76 187 70 true
-add_player 44 69 1,5,2,4,3 94 280 291 true
-add_player 45 95 5,1,4,3,2 238 73 213 true
-add_player 46 96 1,4,3,5,2 267 10 110 false
-add_player 47 63 5,2,1,3,4 224 11 197 false
-add_player 48 55 2,3,4,5,1 276 101 295 false
-add_player 49 50 5,1,3,2,4 244 124 74 false
-add_player 50 16 5,1,4,3,2 171 120 226 true
-add_player 51 96 4,3,1,5,2 88 203 118 false
-add_player 52 64 5,2,4,3,1 9 95 75 false
-add_player 53 7 3,2,4,5,1 76 129 120 false
-add_player 54 49 1,3,5,2,4 72 20 74 true
-add_player 55 57 2,3,5,4,1 120 293 220 false
-add_player 56 17 5,1,2,4,3 21 289 211 true
-add_player 57 46 3,1,4,2,5 129 26 76 true
-add_player 58 65 5,2,1,4,3 299 67 218 true
-add_player 59 18 3,4,5,2,1 250 285 228 true
-add_player 60 79 4,2,3,5,1 167 292 183 false
-add_player 61 9 2,3,1,5,4 14 86 217 true
-add_player 62 19 5,1,2,3,4 39 268 21 false
-add_player 63 97 1,4,5,3,2 93 297 199 false
-add_player 64 60 4,2,1,3,5 91 60 77 true
-add_player 65 20 3,5,4,2,1 109 300 287 true
-add_player 66 53 1,3,5,2,4 28 263 140 false
-add_player 67 52 4,3,2,5,1 127 208 239 false
-add_player 68 49 4,2,5,3,1 38 115 226 false
-add_player 69 68 4,1,3,2,5 115 252 99 false
-add_player 70 1 4,2,1,3,5 146 222 5 true
-add_player 71 76 4,1,3,5,2 279 73 246 true
-add_player 72 46 2,1,4,3,5 196 35 10 true
-add_player 73 24 2,3,1,5,4 130 267 77 true
-add_player 74 23 2,4,5,1,3 292 50 55 true
-add_player 75 34 2,4,5,3,1 246 137 157 false
-add_player 76 14 5,1,4,2,3 22 8 82 false
-add_player 77 38 3,5,1,4,2 163 97 232 false
-add_player 78 58 5,1,2,4,3 268 123 170 true
-add_player 79 43 2,4,3,1,5 235 144 174 false
-add_player 80 56 4,3,5,1,2 95 192 207 false
-add_player 81 80 3,1,4,2,5 189 107 152 true
-add_player 82 20 4,2,1,5,3 73 203 236 true
-add_player 83 36 5,4,2,1,3 164 72 74 true
-add_player 84 67 3,4,1,2,5 183 295 29 false
-add_player 85 12 3,5,2,4,1 73 135 48 false
-add_player 86 42 4,5,3,1,2 274 37 217 false
-add_player 87 98 3,4,5,1,2 212 220 206 true
-add_player 88 55 4,2,5,1,3 256 226 192 true
-add_player 89 59 5,1,4,2,3 262 124 262 true
-add_player 90 53 2,5,4,3,1 114 183 15 true
-add_player 91 14 5,4,2,1,3 253 6 118 false
-add_player 92 89 2,5,1,4,3 24 244 187 false
-add_player 93 66 3,5,4,2,1 111 191 148 false
-add_player 94 31 1,2,4,3,5 22 292 258 false
-add_player 95 16 5,3,2,1,4 239 140 4 true
-add_player 96 35 3,5,4,2,1 266 109 151 true
-add_player 97 46 1,2,5,4,3 165 192 100 false
-add_player 98 38 3,2,1,4,5 12 163 97 false
-add_player 99 9 4,3,5,2,1 248 57 95 true
-add_player 100 12 1,3,5,2,4 41 247 95 false
-buy_team 81 90
-buy_team 7 31
-buy_team 1 63
-add_player 101 10 4,2,5,1,3 66 264 40 true
-add_player_cards 37 161
+add_player 1 87 5,2,4,3,1 14 98 146 true
+add_player 2 98 4,2,5,3,1 101 196 233 true
+add_player 3 87 2,4,1,3,5 68 108 32 false
+add_player 4 90 4,3,2,1,5 272 103 274 true
+add_player 5 9 1,2,4,3,5 298 8 158 true
+add_player 6 91 2,4,1,3,5 207 253 107 true
+add_player 7 16 5,4,3,1,2 64 158 291 false
+add_player 8 86 2,3,4,1,5 253 111 182 false
+add_player 9 11 5,1,3,4,2 103 48 243 false
+add_player 10 49 5,4,2,1,3 17 237 215 true
+add_player 11 53 2,3,1,5,4 256 253 278 true
+add_player 12 37 2,4,5,1,3 216 104 166 true
+add_player 13 57 4,5,2,3,1 199 103 298 false
+add_player 14 77 4,5,3,2,1 253 12 286 false
+add_player 15 68 4,5,2,1,3 230 216 179 false
+add_player 16 74 3,4,2,1,5 68 186 166 false
+add_player 17 63 5,3,1,4,2 103 38 26 true
+add_player 18 9 4,5,1,3,2 249 184 219 true
+add_player 19 22 1,4,5,3,2 83 137 215 false
+add_player 20 50 2,5,3,4,1 136 4 168 true
+add_player 21 71 5,4,1,2,3 107 217 240 false
+add_player 22 24 3,1,4,5,2 154 42 39 false
+add_player 23 54 3,2,4,5,1 18 244 58 false
+add_player 24 92 5,3,1,2,4 151 114 75 true
+add_player 25 64 5,2,4,1,3 73 187 41 true
+add_player 26 96 3,2,4,1,5 45 151 11 true
+add_player 27 60 4,3,2,5,1 159 184 59 true
+add_player 28 81 2,4,3,5,1 133 107 167 false
+add_player 29 68 3,4,1,2,5 283 131 210 false
+add_player 30 51 3,4,2,1,5 261 72 297 true
+add_player 31 72 2,1,4,3,5 168 165 68 false
+add_player 32 59 1,2,3,5,4 252 273 22 false
+add_player 33 84 2,3,1,4,5 116 284 115 true
+add_player 34 26 3,2,5,1,4 256 280 130 true
+add_player 35 39 2,1,3,4,5 52 7 198 true
+add_player 36 95 3,4,5,2,1 108 165 261 true
+add_player 37 1 2,5,3,4,1 53 71 150 false
+add_player 38 24 4,3,1,2,5 262 205 229 true
+add_player 39 68 4,2,3,1,5 117 66 235 true
+add_player 40 5 2,5,1,4,3 108 45 189 false
+add_player 41 46 3,1,2,5,4 216 67 239 true
+add_player 42 58 2,3,1,4,5 257 155 4 false
+add_player 43 77 3,4,5,1,2 122 155 15 true
+add_player 44 58 2,3,4,5,1 40 141 86 false
+add_player 45 23 3,5,4,1,2 138 106 21 true
+add_player 46 26 1,5,2,4,3 184 138 19 false
+add_player 47 13 3,5,1,4,2 80 203 16 false
+add_player 48 76 3,2,1,4,5 71 161 285 true
+add_player 49 46 5,3,1,4,2 80 256 255 false
+add_player 50 100 1,5,3,2,4 209 22 137 true
+add_player 51 59 2,1,4,3,5 107 248 199 false
+add_player 52 88 4,1,5,2,3 137 201 272 true
+add_player 53 72 1,5,4,3,2 30 214 149 true
+add_player 54 17 1,4,2,3,5 267 16 247 true
+add_player 55 85 3,5,4,2,1 273 4 12 false
+add_player 56 93 4,5,3,2,1 113 204 28 true
+add_player 57 24 2,3,5,4,1 112 191 23 false
+add_player 58 91 1,5,2,4,3 210 129 64 true
+add_player 59 21 1,5,2,4,3 21 144 57 true
+add_player 60 90 1,5,2,4,3 128 61 10 false
+add_player 61 50 3,2,5,4,1 196 209 240 false
+add_player 62 82 1,5,4,2,3 247 8 134 false
+add_player 63 75 4,5,1,3,2 190 295 300 true
+add_player 64 8 4,5,1,2,3 214 233 194 false
+add_player 65 34 5,1,3,2,4 164 96 41 false
+add_player 66 22 1,2,3,4,5 208 228 77 true
+add_player 67 99 2,3,1,4,5 271 296 72 false
+add_player 68 44 1,2,5,3,4 44 216 3 false
+add_player 69 45 1,5,2,3,4 154 77 237 true
+add_player 70 73 2,5,3,1,4 196 163 173 true
+add_player 71 46 5,1,3,2,4 217 102 21 true
+add_player 72 85 4,2,1,5,3 153 57 91 true
+add_player 73 16 5,1,3,2,4 144 60 289 true
+add_player 74 36 3,5,1,4,2 294 127 37 true
+add_player 75 36 2,4,1,5,3 108 245 58 false
+add_player 76 77 1,4,5,2,3 189 108 76 false
+add_player 77 9 2,1,3,4,5 121 232 88 true
+add_player 78 42 3,1,2,4,5 184 24 22 true
+add_player 79 63 2,3,1,4,5 124 273 166 false
+add_player 80 48 1,3,4,5,2 136 168 20 false
+add_player 81 98 1,3,5,2,4 106 169 77 true
+add_player 82 80 4,2,3,1,5 150 17 50 false
+add_player 83 24 1,5,4,2,3 24 108 80 false
+add_player 84 73 5,3,4,1,2 171 263 135 true
+add_player 85 12 2,3,5,1,4 287 148 43 false
+add_player 86 75 4,3,1,5,2 139 113 104 false
+add_player 87 82 3,4,1,5,2 264 243 297 true
+add_player 88 16 5,3,2,4,1 200 81 202 false
+add_player 89 32 3,2,1,4,5 181 260 245 true
+add_player 90 65 3,2,5,4,1 41 53 241 false
+add_player 91 63 4,1,5,3,2 101 114 47 true
+add_player 92 74 1,4,3,5,2 251 240 68 false
+add_player 93 50 5,1,2,4,3 173 262 96 true
+add_player 94 17 1,2,4,3,5 247 156 241 true
+add_player 95 92 5,3,4,2,1 167 30 233 true
+add_player 96 31 3,5,2,4,1 207 287 131 true
+add_player 97 70 1,5,3,4,2 59 212 98 true
+add_player 98 5 4,3,1,5,2 95 285 53 false
+add_player 99 29 2,1,4,5,3 224 243 40 true
+add_player 100 64 5,1,2,4,3 88 123 227 true
 add_team 101
-num_played_games_for_player 71
-num_played_games_for_player 60
-get_player_cards 35
-get_team_points 79
-get_partial_spirit 96
-get_player_cards 41
-get_ith_pointless_ability 62
-add_player_cards 29 266
-add_player 102 16 1,3,4,2,5 130 31 141 false
-add_player 103 43 2,5,4,3,1 261 139 146 false
-add_player_cards 48 58
-get_ith_pointless_ability 63
-get_partial_spirit 95
-get_player_cards 94
-add_player_cards 96 29
-add_player 104 16 2,3,4,5,1 290 189 191 false
-add_player 105 84 4,1,2,3,5 285 123 193 true
-add_player_cards 65 173
-add_player_cards 3 103
-play_match 88 91
-add_player_cards 49 191
-remove_team 92
-add_player 106 22 2,1,4,3,5 30 212 92 false
-remove_team 80
-buy_team 34 66
-buy_team 100 77
-get_ith_pointless_ability 76
-add_team 101
-add_team 101
-add_player_cards 59 277
-get_ith_pointless_ability 27
-get_team_points 2
-buy_team 32 65
-get_partial_spirit 33
-get_partial_spirit 84
-get_team_points 25
-num_played_games_for_player 60
-add_player 107 96 5,3,4,2,1 89 56 176 false
-add_player_cards 12 53
-get_ith_pointless_ability 38
-add_player 108 73 5,1,3,2,4 65 75 42 true
-num_played_games_for_player 37
-get_player_cards 63
-num_played_games_for_player 4
-get_ith_pointless_ability 84
-get_team_points 8
-get_ith_pointless_ability 34
-add_player_cards 15 32
-play_match 2 56
-add_team 101
+add_team 102
 get_partial_spirit 52
-add_player 109 45 5,4,2,3,1 126 210 244 false
-remove_team 76
-add_team 101
-get_partial_spirit 75
-play_match 32 3
-add_team 101
-buy_team 71 16
-add_player 110 65 4,1,2,3,5 247 64 231 false
-num_played_games_for_player 59
-buy_team 41 100
-play_match 25 62
-remove_team 82
-add_player 110 15 4,2,1,5,3 91 232 71 true
-add_player 111 17 1,2,3,5,4 137 248 159 true
-get_team_points 66
-num_played_games_for_player 13
-add_player_cards 106 246
-add_player 112 63 2,3,4,1,5 36 53 295 true
-get_team_points 52
-remove_team 52
-add_player 112 78 4,2,5,1,3 226 274 163 false
-add_player_cards 22 300
-get_team_points 62
-get_player_cards 80
-buy_team 46 17
-get_ith_pointless_ability 8
-buy_team 39 79
-buy_team 53 16
-add_team 101
-get_partial_spirit 80
-add_team 101
-add_player 113 23 3,1,5,2,4 234 18 144 false
-add_player 114 56 2,3,1,5,4 245 44 208 false
-get_team_points 69
-num_played_games_for_player 52
-add_player 115 55 5,3,1,4,2 226 149 12 true
-buy_team 34 91
-get_player_cards 58
-remove_team 31
-buy_team 96 98
-add_player 116 88 3,5,1,2,4 11 278 299 true
-get_ith_pointless_ability 42
-get_team_points 93
-buy_team 84 3
-get_player_cards 62
-add_player_cards 35 208
-add_player 117 46 1,5,2,3,4 14 225 49 false
-get_team_points 1
-play_match 20 18
-get_team_points 40
-get_player_cards 82
-get_team_points 70
-add_player 118 61 2,5,1,4,3 77 249 45 true
-play_match 41 85
-get_ith_pointless_ability 52
-get_partial_spirit 113
-add_team 101
-buy_team 36 73
-get_team_points 28
-add_player 119 37 5,1,4,2,3 41 235 59 true
-add_player 120 3 4,3,2,1,5 91 194 3 true
-add_player 120 93 2,3,4,5,1 81 107 262 false
-add_player 121 63 5,2,1,3,4 265 90 200 false
-add_player 121 45 2,3,4,1,5 114 206 195 true
-add_player_cards 73 161
-add_team 101
-add_player 122 43 2,4,3,5,1 192 206 246 false
-buy_team 96 84
-get_player_cards 9
-buy_team 41 89
-get_ith_pointless_ability 77
-get_ith_pointless_ability 86
-get_team_points 27
-get_team_points 45
-add_team 101
-add_player 123 91 1,2,3,4,5 76 287 3 false
-add_player 123 21 4,3,1,5,2 220 64 285 true
-remove_team 49
-add_player 124 24 4,2,1,3,5 98 212 186 false
-add_player 125 36 5,3,4,2,1 283 173 149 true
-num_played_games_for_player 20
-add_player 126 90 2,4,3,1,5 147 242 216 true
-get_player_cards 105
-add_player 126 3 2,4,3,5,1 68 218 86 true
-get_ith_pointless_ability 47
-play_match 41 30
-add_team 101
-get_team_points 48
-add_player_cards 77 263
-num_played_games_for_player 42
-get_team_points 83
-add_team 101
-add_team 101
-buy_team 47 34
-buy_team 81 43
-add_player 126 42 5,3,4,1,2 101 273 175 false
-get_partial_spirit 56
-get_partial_spirit 94
-buy_team 38 72
-add_team 101
-add_player 127 38 4,5,3,1,2 177 200 185 false
-num_played_games_for_player 33
-add_player 128 46 3,1,5,4,2 217 89 143 false
-get_player_cards 26
-buy_team 96 96
-remove_team 77
-remove_team 81
-buy_team 40 28
-buy_team 53 33
-play_match 84 40
-add_team 101
-add_player 129 66 1,4,3,5,2 292 86 273 false
-get_ith_pointless_ability 69
-add_team 101
-get_partial_spirit 14
-add_player_cards 10 7
-play_match 10 8
-get_ith_pointless_ability 48
-get_player_cards 27
-get_ith_pointless_ability 85
-num_played_games_for_player 91
-add_team 101
-buy_team 4 1
-add_player 129 64 1,5,3,2,4 95 65 183 false
-get_player_cards 72
-remove_team 5
-add_team 101
-get_player_cards 85
-add_player_cards 110 51
-get_player_cards 16
-add_player 130 38 2,3,1,5,4 172 37 200 false
-get_player_cards 90
-add_player_cards 93 57
-add_player 131 12 4,1,3,2,5 110 55 90 false
-get_team_points 8
-play_match 74 91
-get_team_points 63
-num_played_games_for_player 80
-add_player_cards 49 250
-add_player 132 36 4,2,3,5,1 158 295 242 false
-add_team 101
-add_player 133 23 4,5,2,3,1 174 93 115 true
-play_match 20 32
-add_team 101
-get_partial_spirit 115
-add_player_cards 46 218
-add_team 101
-play_match 83 79
-get_ith_pointless_ability 86
-add_player_cards 82 80
-add_team 101
-add_player 134 93 2,5,3,1,4 294 236 130 true
-remove_team 95
-num_played_games_for_player 92
-get_partial_spirit 89
-get_partial_spirit 75
-get_ith_pointless_ability 77
-num_played_games_for_player 102
-buy_team 42 54
-buy_team 12 44
-buy_team 39 41
-get_team_points 23
-remove_team 7
-buy_team 88 2
-add_player_cards 28 183
-add_player 135 57 2,4,5,1,3 129 181 113 true
-get_ith_pointless_ability 90
-add_player 136 2 4,5,1,3,2 138 233 192 true
-add_player 136 55 5,3,2,4,1 129 99 10 true
-add_player 137 42 3,2,1,5,4 285 83 104 false
-add_player_cards 118 286
-remove_team 26
-remove_team 23
-get_ith_pointless_ability 56
-add_player 138 58 5,1,4,2,3 214 35 167 false
-add_player 139 32 5,3,1,4,2 273 280 250 false
-play_match 13 85
-play_match 50 44
-get_partial_spirit 34
-add_player 140 42 3,2,4,1,5 197 31 102 true
-add_team 101
-add_player_cards 65 172
-add_player 141 70 4,2,3,1,5 72 154 201 false
-add_player 142 93 1,4,5,3,2 215 277 229 false
-remove_team 46
-num_played_games_for_player 90
-play_match 18 13
-num_played_games_for_player 104
-add_player 143 20 3,5,2,1,4 41 149 72 true
-get_player_cards 61
-buy_team 63 97
-add_player_cards 136 159
-add_team 101
-add_player_cards 138 233
-add_player 144 66 3,5,1,4,2 152 43 127 false
-add_player 144 24 3,1,4,5,2 49 279 11 true
-add_player_cards 31 82
-add_player 145 4 2,4,5,3,1 217 173 224 false
-add_player 146 67 4,5,3,1,2 43 104 87 true
-add_team 101
-get_ith_pointless_ability 61
-get_ith_pointless_ability 2
-add_player 147 8 1,5,4,2,3 6 37 23 false
-add_player 148 72 2,5,3,1,4 241 18 272 false
-add_player 148 83 3,2,5,1,4 15 196 16 false
-play_match 72 53
-num_played_games_for_player 106
-get_team_points 74
-remove_team 65
-get_team_points 8
-add_player 149 19 3,5,4,1,2 39 142 17 false
-get_partial_spirit 70
-num_played_games_for_player 84
-get_player_cards 111
-remove_team 16
-remove_team 45
-buy_team 69 32
-play_match 22 21
-get_ith_pointless_ability 39
-get_ith_pointless_ability 51
-add_player 150 75 2,5,3,1,4 288 17 51 false
-play_match 29 42
-get_partial_spirit 125
-add_player_cards 9 27
-get_player_cards 132
-add_player_cards 148 197
-get_team_points 56
-play_match 25 18
-add_player_cards 82 124
-add_player_cards 56 285
-add_player 151 33 3,2,1,5,4 264 213 27 true
-buy_team 22 99
-play_match 60 66
-add_player 151 100 3,2,4,5,1 112 187 126 true
-add_player 151 68 5,4,1,2,3 125 161 9 false
-get_team_points 53
-buy_team 19 42
-num_played_games_for_player 51
-add_player 152 50 3,1,4,2,5 82 205 272 true
-add_player_cards 52 239
-add_player_cards 2 95
-add_player 153 36 2,3,1,4,5 108 195 187 true
-remove_team 85
-add_team 101
-num_played_games_for_player 52
-remove_team 13
-get_ith_pointless_ability 6
-get_ith_pointless_ability 54
-add_player 154 88 1,2,5,4,3 124 104 94 true
-get_partial_spirit 108
-add_team 101
-get_partial_spirit 135
-add_player_cards 44 51
-remove_team 100
-get_team_points 56
-buy_team 63 42
-get_team_points 28
-num_played_games_for_player 60
-buy_team 22 8
-buy_team 87 10
-get_player_cards 72
-buy_team 22 53
-get_team_points 24
-add_player_cards 51 229
-add_player 155 32 4,1,3,5,2 255 231 113 false
-num_played_games_for_player 153
-num_played_games_for_player 18
-buy_team 2 25
-add_team 101
-add_player 155 28 4,5,1,3,2 57 178 45 true
-add_player_cards 88 204
-add_player 155 83 2,3,4,5,1 125 248 61 true
-add_player_cards 41 19
-num_played_games_for_player 53
-add_player_cards 56 82
-add_player_cards 120 67
-add_player 156 24 5,1,3,4,2 65 241 259 true
-buy_team 47 64
-remove_team 2
-add_player 157 78 1,2,4,3,5 238 198 85 true
-remove_team 94
-get_partial_spirit 42
-num_played_games_for_player 56
-remove_team 72
-get_partial_spirit 59
-get_partial_spirit 135
-remove_team 55
-get_partial_spirit 61
-add_player_cards 32 192
-get_player_cards 121
-get_partial_spirit 59
-get_team_points 96
-add_player 158 58 4,1,5,3,2 236 116 128 false
-add_player_cards 101 206
-add_player 159 50 1,2,5,4,3 246 96 214 true
-remove_team 97
-add_player 160 11 1,4,3,2,5 160 223 225 false
-add_player 161 86 2,5,4,1,3 48 237 300 true
-add_player 162 42 3,1,2,4,5 20 289 246 true
-buy_team 18 14
-add_player 162 28 2,4,5,3,1 3 152 238 true
-get_partial_spirit 161
-remove_team 61
-get_partial_spirit 89
-get_player_cards 74
-play_match 78 70
-add_team 101
-add_team 101
-num_played_games_for_player 99
-buy_team 66 93
-add_team 101
-add_player_cards 140 139
-get_ith_pointless_ability 56
-get_player_cards 37
-buy_team 1 65
-num_played_games_for_player 31
-play_match 57 31
-play_match 77 38
-buy_team 14 21
-play_match 47 4
-get_partial_spirit 43
-add_team 101
-remove_team 77
-get_partial_spirit 52
-play_match 15 58
-get_partial_spirit 73
-play_match 4 89
-num_played_games_for_player 32
-add_player 162 16 3,2,4,5,1 239 199 20 false
-buy_team 39 88
-play_match 77 29
-buy_team 38 68
-get_player_cards 123
-buy_team 96 25
-num_played_games_for_player 45
-get_partial_spirit 62
-add_player 162 79 3,1,5,2,4 7 233 206 false
-play_match 87 70
-num_played_games_for_player 55
-buy_team 14 43
-add_player 162 9 5,3,4,1,2 255 10 61 true
-add_player 163 1 4,3,5,2,1 189 74 298 false
-add_player_cards 44 60
-add_player 163 62 2,1,3,4,5 48 170 230 true
-add_player 164 58 4,3,1,5,2 87 221 286 true
-add_player 165 44 1,5,3,4,2 221 29 247 false
-play_match 4 59
-remove_team 72
-add_player_cards 95 50
-add_player 165 64 5,2,4,1,3 253 240 25 false
-add_player_cards 83 161
-get_player_cards 114
-add_player_cards 21 273
-add_player 165 33 1,4,2,5,3 256 294 230 true
-get_player_cards 87
-add_player_cards 102 155
-num_played_games_for_player 128
-num_played_games_for_player 143
-buy_team 89 65
-num_played_games_for_player 98
-add_player 165 75 5,2,4,3,1 287 250 145 true
-add_player 166 36 1,5,3,4,2 227 135 187 false
-get_ith_pointless_ability 73
-add_team 101
-add_player 167 3 2,1,5,3,4 211 205 184 true
-add_player 167 54 1,5,2,3,4 261 251 223 false
-add_player_cards 44 20
-add_team 101
-get_partial_spirit 4
-add_player 167 9 5,1,4,2,3 286 228 229 true
-play_match 10 14
-get_team_points 42
-add_player 168 84 1,5,4,3,2 281 117 272 false
-play_match 65 4
-remove_team 98
-buy_team 99 11
-add_player 168 64 2,4,3,5,1 286 218 121 false
-add_player_cards 25 217
-add_player 168 91 4,1,3,2,5 180 282 84 true
-buy_team 73 24
-num_played_games_for_player 126
-add_player 168 96 4,1,2,5,3 103 60 214 true
-play_match 19 79
-remove_team 59
-get_player_cards 34
-add_player 169 33 4,2,3,1,5 106 156 185 true
-buy_team 43 47
-get_player_cards 34
-add_player 169 4 3,4,5,2,1 16 300 96 true
-get_partial_spirit 126
-get_ith_pointless_ability 50
-add_player_cards 43 71
-buy_team 4 53
-get_team_points 87
-get_partial_spirit 85
-add_player_cards 33 183
-get_player_cards 102
-get_ith_pointless_ability 68
-get_ith_pointless_ability 14
-get_partial_spirit 34
-get_player_cards 143
-get_player_cards 163
-add_player 170 75 3,5,2,1,4 300 261 140 true
-buy_team 89 64
-remove_team 16
-add_player 171 47 5,4,3,2,1 143 44 64 true
-add_player 172 47 3,4,1,2,5 88 170 124 true
-get_team_points 100
-num_played_games_for_player 129
-num_played_games_for_player 132
-add_player 173 48 2,1,4,3,5 220 63 238 false
-remove_team 35
-get_player_cards 117
-get_ith_pointless_ability 25
-get_partial_spirit 65
-num_played_games_for_player 24
-get_team_points 56
-add_player 174 78 5,1,4,3,2 71 191 109 true
-add_player 175 62 2,1,5,4,3 199 209 177 false
-play_match 21 36
-get_partial_spirit 143
-num_played_games_for_player 145
-get_partial_spirit 127
-add_player 176 56 2,1,3,5,4 8 223 202 true
-play_match 47 27
-get_player_cards 16
-add_player 177 27 2,4,5,1,3 4 291 285 false
-remove_team 6
-add_player_cards 132 198
-num_played_games_for_player 7
-buy_team 62 75
-play_match 100 14
-add_player 178 98 2,5,1,3,4 274 146 104 false
-get_partial_spirit 104
-buy_team 68 64
-add_player 178 31 1,2,3,4,5 64 273 132 true
-buy_team 8 37
-add_player 178 33 5,3,2,4,1 242 1 39 false
-add_team 101
-buy_team 39 54
-add_player 178 84 1,5,2,4,3 158 76 229 true
-remove_team 62
-add_player 178 90 1,4,5,3,2 88 38 291 false
-get_partial_spirit 77
-num_played_games_for_player 106
-play_match 79 19
-get_player_cards 8
-add_team 101
-add_player 178 50 5,2,3,1,4 64 46 146 false
-add_player 179 73 5,4,2,3,1 7 120 78 false
-get_ith_pointless_ability 59
-get_ith_pointless_ability 20
-get_ith_pointless_ability 48
-add_team 101
-play_match 37 2
-add_player 179 90 5,4,1,3,2 116 242 142 false
-add_player_cards 153 166
-remove_team 1
-get_partial_spirit 44
-get_partial_spirit 114
-play_match 36 2
-get_team_points 96
-play_match 20 1
-num_played_games_for_player 5
-add_player 179 71 3,2,4,1,5 92 6 33 true
-get_player_cards 121
-get_team_points 40
-get_ith_pointless_ability 35
-get_team_points 86
-add_player_cards 77 208
-buy_team 38 2
-num_played_games_for_player 21
-num_played_games_for_player 74
-add_player_cards 82 30
-num_played_games_for_player 169
-remove_team 22
-add_team 101
-get_team_points 50
-add_player 180 20 1,2,3,4,5 201 130 221 true
-add_player_cards 142 134
-get_ith_pointless_ability 53
-get_team_points 68
-play_match 69 71
-get_team_points 60
-num_played_games_for_player 90
-add_team 101
-play_match 17 69
-add_player_cards 49 71
-play_match 98 65
-add_team 101
-num_played_games_for_player 43
-add_team 101
-get_ith_pointless_ability 30
-add_team 101
-get_player_cards 55
-get_team_points 10
-add_player_cards 125 1
-num_played_games_for_player 36
-buy_team 63 24
-add_player 181 90 4,3,2,5,1 228 235 37 true
-add_player 181 19 3,4,1,5,2 244 201 9 true
-buy_team 51 78
-play_match 75 15
-remove_team 68
-buy_team 9 8
-get_ith_pointless_ability 7
-play_match 20 86
-add_player 182 3 4,5,2,3,1 182 64 73 true
-play_match 44 54
-get_ith_pointless_ability 9
-add_player 182 50 4,2,3,5,1 64 2 45 true
-add_player 183 36 2,4,3,5,1 39 177 50 false
-remove_team 11
-get_player_cards 161
-get_partial_spirit 172
-get_ith_pointless_ability 53
-get_partial_spirit 32
-add_team 101
-num_played_games_for_player 114
-get_partial_spirit 112
-remove_team 68
-remove_team 70
-get_team_points 8
-get_partial_spirit 174
-get_player_cards 24
-add_player 184 1 1,2,4,5,3 206 245 29 false
-buy_team 19 50
-num_played_games_for_player 65
-add_player 184 17 3,5,4,2,1 195 39 69 false
-add_player 184 100 5,3,2,1,4 105 136 39 false
-num_played_games_for_player 154
-get_team_points 41
-add_player 184 63 3,2,5,1,4 152 166 89 true
-get_team_points 41
-add_player 184 36 3,1,5,2,4 256 70 277 false
-add_player_cards 86 172
-get_partial_spirit 39
-get_partial_spirit 47
-get_ith_pointless_ability 67
-buy_team 19 42
-buy_team 4 63
-add_player_cards 40 245
-buy_team 14 51
-add_player 185 63 4,5,1,2,3 237 31 299 false
-buy_team 3 71
-add_team 101
-get_player_cards 73
-buy_team 64 53
-add_player 185 57 5,2,1,3,4 273 148 32 false
-add_player 186 40 1,2,3,5,4 264 176 183 false
-get_partial_spirit 125
-add_team 101
-add_team 101
-num_played_games_for_player 14
-buy_team 14 91
-remove_team 69
-get_team_points 63
-add_player 187 48 4,1,5,3,2 85 28 244 true
-add_player_cards 162 271
-num_played_games_for_player 126
-buy_team 48 64
-get_player_cards 101
-get_player_cards 25
-get_ith_pointless_ability 9
-add_team 101
-add_player 188 43 1,2,3,5,4 282 210 15 false
-get_team_points 90
-add_player_cards 105 113
-play_match 3 20
-play_match 19 20
-get_partial_spirit 32
-add_player 188 71 4,5,2,3,1 284 50 159 false
-add_team 101
-add_player_cards 184 185
-add_player 189 60 3,1,2,4,5 191 78 85 false
-get_player_cards 109
-play_match 72 24
-add_player 190 9 2,3,1,5,4 141 248 79 true
-add_player 191 50 2,3,5,4,1 259 235 202 true
-get_ith_pointless_ability 72
-add_team 101
-get_ith_pointless_ability 70
-get_partial_spirit 4
-get_partial_spirit 114
-add_player 191 83 1,5,2,3,4 68 299 101 true
-get_ith_pointless_ability 36
-get_player_cards 65
-add_player 192 58 1,3,5,2,4 108 64 83 false
-remove_team 67
-get_ith_pointless_ability 40
-add_player 193 74 4,1,3,2,5 18 12 48 false
-add_team 101
-num_played_games_for_player 137
-add_team 101
-num_played_games_for_player 134
-buy_team 87 51
-get_player_cards 99
-remove_team 93
-play_match 27 38
-add_player 194 47 1,4,5,3,2 40 282 294 true
-add_player 195 9 3,4,2,1,5 20 27 193 true
-get_player_cards 76
-remove_team 34
-get_ith_pointless_ability 26
-remove_team 65
-get_partial_spirit 9
-add_team 101
-num_played_games_for_player 116
-add_team 101
-play_match 65 84
-num_played_games_for_player 111
-remove_team 86
-add_player_cards 8 55
-add_player 196 39 2,1,5,3,4 33 286 168 false
-play_match 38 4
-play_match 51 16
-num_played_games_for_player 188
-get_player_cards 22
-get_partial_spirit 4
-add_player 197 63 4,1,5,2,3 72 33 102 false
-num_played_games_for_player 60
-get_ith_pointless_ability 10
-add_player_cards 151 262
-get_ith_pointless_ability 65
-num_played_games_for_player 117
-get_partial_spirit 77
-add_player 197 90 3,5,4,1,2 27 25 280 false
-get_ith_pointless_ability 32
-num_played_games_for_player 4
-add_team 101
-play_match 1 66
-play_match 54 29
-add_player 197 2 3,1,4,5,2 227 192 136 false
-add_team 101
-get_player_cards 83
-get_ith_pointless_ability 10
-get_team_points 60
-get_ith_pointless_ability 30
-add_player 197 29 3,5,1,2,4 126 121 294 true
-get_player_cards 158
-add_player_cards 78 239
-get_player_cards 131
-add_player 198 19 5,1,3,2,4 93 126 133 true
-add_player 199 83 5,2,4,3,1 275 79 252 true
-get_team_points 96
-get_ith_pointless_ability 38
-play_match 75 1
-remove_team 15
-remove_team 57
-add_player 200 73 1,2,3,5,4 295 159 278 false
-add_player 200 91 1,3,5,2,4 162 278 264 true
-num_played_games_for_player 138
-num_played_games_for_player 177
-num_played_games_for_player 20
-add_player_cards 17 57
-play_match 48 32
-remove_team 88
-add_player 200 25 2,5,1,3,4 299 217 201 false
-add_player 200 19 5,4,1,2,3 174 96 161 true
-add_player_cards 157 67
-add_player_cards 105 189
-get_ith_pointless_ability 42
-get_ith_pointless_ability 13
-buy_team 33 37
-add_team 101
-add_player 201 51 2,3,4,1,5 252 288 214 true
-add_player 201 58 5,1,3,4,2 48 71 165 false
-add_player 202 19 2,4,5,1,3 201 126 131 false
-add_team 101
-add_player 203 43 4,2,3,5,1 109 187 90 true
-add_player 203 96 3,2,4,5,1 110 139 140 true
-get_player_cards 52
-buy_team 47 88
-num_played_games_for_player 72
-add_team 101
-num_played_games_for_player 98
-remove_team 39
-get_ith_pointless_ability 13
-buy_team 60 18
-add_player 204 10 1,2,5,3,4 113 32 9 true
-add_player 204 32 3,2,5,4,1 184 46 69 false
-get_partial_spirit 80
-add_player 204 34 5,2,1,4,3 117 75 129 true
-add_player_cards 9 146
-get_team_points 28
-add_player 204 88 1,2,3,5,4 216 181 250 true
-add_player 204 99 3,5,4,1,2 239 102 128 false
-add_player 204 10 4,5,3,1,2 189 73 256 false
-buy_team 37 56
-play_match 71 47
-get_team_points 9
-get_partial_spirit 86
-add_team 101
-get_ith_pointless_ability 8
-add_player 204 78 4,2,1,5,3 142 189 115 true
-add_player 204 65 1,5,2,3,4 56 282 44 false
-get_player_cards 153
-get_team_points 60
-get_partial_spirit 168
-add_player 204 91 2,4,5,3,1 238 234 226 false
-get_player_cards 82
-add_player 204 99 2,1,5,4,3 290 82 15 true
-add_player 204 17 1,2,4,5,3 16 66 197 false
-get_partial_spirit 50
-add_player 204 63 3,1,4,5,2 177 7 163 false
-add_player_cards 191 39
-get_team_points 48
-get_player_cards 12
-add_player 204 47 3,5,4,2,1 136 229 213 false
-get_player_cards 188
-buy_team 71 25
-add_player 205 48 5,2,3,1,4 230 199 279 false
-add_player 206 37 4,3,1,2,5 172 139 126 false
-buy_team 34 60
-num_played_games_for_player 154
-get_team_points 98
-add_player 207 48 2,5,3,4,1 65 242 181 true
-add_team 101
-add_player 208 73 4,3,5,2,1 86 13 139 true
-get_ith_pointless_ability 1
-get_team_points 12
-add_player 208 60 3,4,1,5,2 6 198 23 false
-num_played_games_for_player 68
-add_player 209 41 3,2,5,1,4 273 239 115 true
-get_player_cards 174
-get_partial_spirit 70
-get_ith_pointless_ability 55
-add_player 209 2 5,3,4,1,2 98 13 37 false
-add_player 209 89 5,2,4,3,1 2 12 282 true
-add_player 209 84 5,4,1,3,2 271 284 143 true
-add_player 209 77 2,5,1,3,4 66 14 257 false
-play_match 27 1
-buy_team 66 2
-get_team_points 41
-add_player 209 98 4,1,2,5,3 40 171 297 false
-get_player_cards 75
-get_player_cards 97
-add_player 209 43 4,2,1,5,3 279 126 165 true
-get_partial_spirit 195
-buy_team 37 8
-get_player_cards 129
-remove_team 1
-add_player_cards 181 124
-play_match 65 1
-play_match 64 4
-add_player 209 14 3,2,5,4,1 231 209 51 true
-remove_team 24
-remove_team 44
-get_ith_pointless_ability 55
-get_partial_spirit 104
-add_player 209 79 3,2,1,5,4 145 4 166 false
-add_player 209 77 2,4,3,1,5 33 299 55 false
-add_team 101
-buy_team 96 65
-get_ith_pointless_ability 22
-get_ith_pointless_ability 4
-get_team_points 99
-add_player 209 8 3,4,5,2,1 91 245 42 true
-get_team_points 9
-add_player 209 41 4,3,5,2,1 78 56 41 false
-get_partial_spirit 203
-add_player 209 72 5,2,4,1,3 238 12 142 true
-add_player 209 90 2,3,4,5,1 294 195 64 true
-play_match 71 36
-buy_team 99 40
-add_player_cards 104 37
-get_partial_spirit 94
-add_player_cards 86 218
-play_match 17 40
-add_team 101
-add_player 209 54 1,4,3,5,2 62 128 70 true
-add_player 209 65 5,4,1,3,2 289 261 172 true
-play_match 34 98
-num_played_games_for_player 149
-add_player 209 74 2,3,1,5,4 123 286 136 true
-add_player 210 58 1,4,2,3,5 56 27 169 false
-get_team_points 48
-buy_team 32 4
-add_player 211 30 3,2,4,5,1 17 54 244 true
-buy_team 79 72
-add_player 212 30 3,2,4,1,5 297 65 174 false
-get_partial_spirit 62
-add_team 101
-add_player 213 42 5,2,4,3,1 207 205 89 true
-add_player_cards 59 268
-buy_team 31 88
-num_played_games_for_player 212
-play_match 56 34
-play_match 68 4
-add_player_cards 177 25
-remove_team 12
-get_partial_spirit 119
-num_played_games_for_player 84
-num_played_games_for_player 148
-num_played_games_for_player 42
-remove_team 53
-buy_team 20 2
-num_played_games_for_player 37
-get_partial_spirit 34
-get_ith_pointless_ability 60
-get_ith_pointless_ability 41
-get_team_points 84
-get_partial_spirit 140
-play_match 54 21
-add_player 213 53 2,3,1,4,5 122 104 48 false
-num_played_games_for_player 182
-remove_team 40
-add_player 213 42 1,3,5,2,4 184 256 282 true
-play_match 43 38
-get_team_points 17
-get_player_cards 189
-buy_team 96 84
-get_partial_spirit 193
+add_player 101 65 3,5,1,2,4 126 273 228 false
+add_team 103
+play_match 95 71
+get_player_cards 88
+add_team 104
+add_player_cards 80 130
+add_player 102 75 3,4,5,1,2 77 161 37 false
+add_player 103 70 2,1,4,3,5 182 178 282 false
+get_team_points 73
+add_player 104 46 1,3,5,2,4 274 180 1 true
+add_player 105 35 2,3,5,4,1 25 194 138 false
+add_player 106 97 1,5,4,3,2 293 206 156 true
+add_player 107 90 3,5,1,2,4 132 67 42 false
+add_team 105
+add_player 108 83 1,3,5,4,2 251 239 6 true
 remove_team 66
-add_player_cards 197 234
-add_player_cards 148 12
-remove_team 31
-get_player_cards 160
-add_player 213 36 4,1,5,2,3 254 273 65 true
-add_player 214 88 2,4,5,1,3 245 295 203 true
-buy_team 4 19
-play_match 84 33
-get_team_points 4
-add_team 101
-get_ith_pointless_ability 34
-add_team 101
-buy_team 19 2
-add_team 101
-add_player 214 33 1,2,4,3,5 113 131 270 true
-add_player 214 96 3,1,5,4,2 122 217 202 false
-buy_team 20 64
-add_player_cards 58 105
-remove_team 60
-add_player 215 73 3,1,2,5,4 44 283 234 false
-get_player_cards 133
-get_player_cards 193
-add_player 215 64 4,1,5,3,2 67 57 216 false
-get_partial_spirit 24
-add_player 215 78 3,4,5,2,1 160 120 106 false
-num_played_games_for_player 208
-add_player 215 16 1,2,3,4,5 102 73 162 false
-add_team 101
-add_player 215 65 1,4,3,2,5 184 90 31 false
-buy_team 51 84
-get_team_points 75
-get_ith_pointless_ability 19
-num_played_games_for_player 12
-add_player 215 68 1,4,2,5,3 47 53 285 false
-remove_team 31
-add_player 215 20 5,3,4,1,2 272 211 2 false
-get_player_cards 160
-num_played_games_for_player 162
-get_player_cards 25
-get_partial_spirit 79
-get_player_cards 188
-add_player 216 16 3,5,4,1,2 289 32 16 false
-num_played_games_for_player 189
-add_player 216 3 2,1,4,5,3 166 38 134 true
-num_played_games_for_player 175
-add_team 101
-get_partial_spirit 188
-get_ith_pointless_ability 34
-get_player_cards 54
-get_player_cards 23
-add_player_cards 181 185
-num_played_games_for_player 37
-add_player 216 71 5,3,1,4,2 160 285 283 true
-add_player 217 33 3,5,2,4,1 58 81 198 true
-num_played_games_for_player 151
-get_team_points 51
-add_player 217 71 1,4,2,3,5 261 46 155 true
-get_team_points 10
-get_partial_spirit 38
-remove_team 50
-get_team_points 1
-add_player 218 74 3,4,2,5,1 94 206 184 false
 get_ith_pointless_ability 33
-buy_team 64 43
-add_player 219 63 2,3,1,5,4 188 123 159 false
+add_player_cards 96 219
+add_player_cards 35 82
+get_player_cards 27
+get_partial_spirit 19
+get_team_points 59
+get_player_cards 21
+add_player 109 81 1,2,3,5,4 51 115 272 true
+remove_team 67
+add_team 106
+add_player 110 43 4,3,2,1,5 276 198 270 false
+remove_team 23
+play_match 68 34
+add_player 111 51 1,5,4,3,2 291 164 240 true
+play_match 10 15
+get_team_points 90
+get_ith_pointless_ability 30
+remove_team 97
+get_partial_spirit 33
 get_team_points 18
-num_played_games_for_player 49
-buy_team 68 63
-add_player_cards 65 88
-add_player 219 75 1,2,5,4,3 245 275 133 false
-add_player 219 88 2,3,1,4,5 142 259 287 false
-add_player 219 54 2,5,4,1,3 230 232 123 true
-num_played_games_for_player 179
-add_team 101
-get_partial_spirit 179
-get_partial_spirit 155
-get_player_cards 210
-num_played_games_for_player 214
-remove_team 4
-buy_team 72 77
-num_played_games_for_player 178
-add_player 219 43 2,5,1,3,4 127 278 18 true
-play_match 30 73
-play_match 38 72
-add_player 219 18 3,5,2,1,4 134 291 23 true
-buy_team 9 21
-buy_team 98 28
-play_match 56 30
-remove_team 68
-buy_team 17 27
-remove_team 89
-remove_team 71
-add_player 219 100 2,1,3,5,4 169 108 300 true
-add_player 219 96 5,2,4,1,3 156 228 43 true
-add_team 101
-add_player 220 33 4,5,1,2,3 247 295 152 true
-remove_team 20
-add_player 220 33 2,3,1,5,4 242 188 80 false
-get_ith_pointless_ability 38
-get_ith_pointless_ability 41
-get_partial_spirit 46
-add_player_cards 95 132
-add_player 220 18 5,1,4,3,2 64 188 54 true
-get_player_cards 41
-add_player 220 88 1,4,2,3,5 107 295 196 false
-get_ith_pointless_ability 28
-add_player_cards 78 62
-buy_team 47 51
-remove_team 2
-get_team_points 31
-buy_team 84 83
-get_ith_pointless_ability 7
+get_team_points 78
+add_player 112 40 3,4,1,5,2 106 96 197 false
+add_team 107
+add_player 113 68 4,5,3,2,1 277 87 244 false
+get_player_cards 111
+remove_team 3
+add_player 114 76 5,3,2,1,4 67 287 169 false
+add_player 115 7 1,2,5,4,3 270 202 86 false
+remove_team 47
+num_played_games_for_player 8
+get_player_cards 40
+num_played_games_for_player 11
+add_player 116 96 5,1,4,3,2 164 106 184 true
+get_team_points 68
+get_partial_spirit 32
+num_played_games_for_player 73
+remove_team 76
+get_player_cards 80
 get_ith_pointless_ability 56
-get_partial_spirit 159
-add_player 220 53 3,4,5,1,2 113 78 187 false
-get_ith_pointless_ability 49
-remove_team 10
+add_player 117 92 1,3,2,4,5 151 143 202 true
+get_team_points 72
+play_match 14 71
+add_player 118 61 4,5,1,3,2 191 279 96 false
+get_ith_pointless_ability 34
+add_player 119 4 3,4,2,5,1 88 140 214 false
+play_match 37 96
+remove_team 4
+add_player 119 83 4,1,3,5,2 131 125 169 false
+add_player 119 75 5,1,3,4,2 81 155 140 true
+remove_team 80
+add_team 108
+remove_team 61
+get_partial_spirit 94
+add_player_cards 29 152
+add_player 118 85 2,4,3,1,5 128 76 226 true
+get_team_points 13
+buy_team 30 71
+get_team_points 35
+add_player 118 49 5,4,1,3,2 39 248 202 false
+add_player 118 27 2,5,4,3,1 268 237 100 true
+remove_team 102
+get_ith_pointless_ability 57
+add_player 118 33 3,1,2,5,4 119 21 10 false
+get_team_points 49
+get_ith_pointless_ability 77
+buy_team 72 11
+get_team_points 55
+add_player 118 31 3,1,4,5,2 212 213 117 false
+add_player_cards 110 289
+remove_team 39
+get_player_cards 63
+buy_team 2 55
+get_ith_pointless_ability 46
+get_partial_spirit 85
+get_ith_pointless_ability 96
+get_partial_spirit 52
+get_partial_spirit 3
+remove_team 101
+remove_team 7
+get_ith_pointless_ability 38
+get_partial_spirit 116
+add_team 109
+add_team 110
+get_team_points 109
+add_player 118 16 4,1,3,5,2 28 249 67 false
+remove_team 2
+get_team_points 10
+add_player 118 37 3,2,1,5,4 170 185 264 false
+add_player 118 99 1,3,2,5,4 72 145 218 true
+get_player_cards 72
+num_played_games_for_player 83
+buy_team 70 51
+add_player_cards 58 271
+add_player 118 91 5,2,3,4,1 211 29 82 true
+get_team_points 56
+get_player_cards 49
+get_partial_spirit 42
+buy_team 11 110
+add_player 118 25 4,3,2,5,1 293 72 59 false
+remove_team 22
+add_player_cards 105 73
+get_team_points 69
+play_match 40 11
+add_team 111
+num_played_games_for_player 3
+remove_team 71
+get_team_points 88
+add_team 112
+play_match 93 56
+get_partial_spirit 77
+add_player 118 92 1,5,4,2,3 263 119 277 true
+get_ith_pointless_ability 54
+get_ith_pointless_ability 41
+num_played_games_for_player 104
+num_played_games_for_player 114
+get_player_cards 118
+get_player_cards 35
+add_player 118 28 1,4,2,5,3 279 103 218 false
+play_match 43 72
+add_player 118 24 1,5,2,3,4 117 61 112 false
+play_match 48 86
+get_ith_pointless_ability 78
+add_player_cards 108 168
+add_player 118 91 3,1,4,2,5 158 29 245 false
+num_played_games_for_player 36
+add_player 118 49 3,5,4,1,2 212 97 149 false
+get_team_points 20
+buy_team 82 16
+get_player_cards 91
+get_ith_pointless_ability 0
+play_match 44 111
+get_ith_pointless_ability 14
+get_player_cards 64
+add_player 118 111 3,4,1,2,5 262 216 105 true
+add_player 118 85 5,2,1,4,3 98 184 207 true
+get_team_points 18
+play_match 34 72
+get_partial_spirit 96
+get_player_cards 3
+get_ith_pointless_ability 42
+add_player 118 58 4,1,3,5,2 254 96 13 false
+remove_team 103
+play_match 109 95
+get_team_points 56
+play_match 95 63
+get_ith_pointless_ability 2
+add_player 118 62 1,2,3,5,4 73 22 295 true
+add_player 118 62 5,2,4,3,1 3 99 180 false
+add_player 118 28 3,4,5,2,1 91 153 196 true
+num_played_games_for_player 51
+add_player 118 77 3,2,5,4,1 10 219 141 true
+get_partial_spirit 30
+get_team_points 83
+add_player 118 69 4,1,5,3,2 122 197 154 false
+add_player 118 78 1,3,5,2,4 227 294 48 true
+add_player 118 8 2,5,1,3,4 211 4 75 true
+remove_team 83
+get_partial_spirit 5
+num_played_games_for_player 33
+add_team 113
+buy_team 99 48
+buy_team 68 51
+get_player_cards 84
+num_played_games_for_player 78
+remove_team 73
+add_player 118 27 2,3,1,5,4 118 81 131 false
+get_ith_pointless_ability 9
+get_player_cards 89
+remove_team 58
+remove_team 21
+num_played_games_for_player 104
+add_player 118 34 4,1,3,2,5 126 139 271 false
+add_player 118 43 2,4,5,1,3 88 205 254 false
+add_player 118 91 4,5,3,2,1 241 269 247 true
+get_ith_pointless_ability 64
+get_team_points 81
 remove_team 9
-add_player 220 2 5,2,3,4,1 187 161 95 true
-add_team 101
-add_player 220 78 1,3,5,4,2 160 103 10 true
-remove_team 65
-add_player 220 29 5,3,1,2,4 274 153 197 true
-add_player 221 98 5,3,2,4,1 144 173 220 true
-add_player_cards 157 295
-add_player 221 48 5,3,1,2,4 217 132 237 true
-play_match 91 41
-play_match 66 72
-get_ith_pointless_ability 51
+buy_team 88 105
+add_player 118 87 4,1,3,2,5 180 245 77 false
+get_partial_spirit 57
+remove_team 112
+add_team 114
+buy_team 64 93
+add_team 115
+add_player 118 13 4,2,3,1,5 258 172 293 false
+num_played_games_for_player 47
+get_ith_pointless_ability 55
+get_player_cards 94
+remove_team 79
+buy_team 27 91
+add_team 116
+buy_team 32 34
+add_player 118 96 1,5,3,2,4 143 139 83 true
+add_player 118 86 2,1,3,5,4 3 139 281 true
+remove_team 116
+add_team 116
+num_played_games_for_player 79
+buy_team 46 70
+play_match 11 33
+remove_team 15
+get_ith_pointless_ability 90
+remove_team 38
+num_played_games_for_player 80
+play_match 72 45
+add_player 118 69 5,3,2,1,4 138 94 93 false
+add_team 117
+get_player_cards 56
+get_player_cards 99
+get_player_cards 103
+buy_team 85 63
+get_team_points 107
+remove_team 8
+get_player_cards 111
+add_team 118
+add_player 118 27 3,2,5,4,1 266 226 283 false
+add_team 119
+get_partial_spirit 43
+play_match 86 12
+get_player_cards 4
+add_player 118 96 5,3,4,1,2 111 198 79 true
+play_match 18 104
+get_ith_pointless_ability 90
+buy_team 17 12
+buy_team 95 60
+get_partial_spirit 6
+add_player_cards 40 36
+buy_team 32 24
+buy_team 25 116
+add_player 118 37 4,5,3,1,2 31 128 124 false
+add_player 118 92 5,2,3,1,4 240 89 58 true
+get_team_points 77
+play_match 98 34
+num_played_games_for_player 103
+get_ith_pointless_ability 85
+num_played_games_for_player 34
+num_played_games_for_player 44
+add_player 118 65 1,5,2,4,3 14 53 45 false
+num_played_games_for_player 117
+add_player 118 16 2,4,1,3,5 86 253 108 false
+add_player_cards 26 19
+add_player 118 81 2,3,1,4,5 209 153 289 true
+get_player_cards 67
+add_player 118 19 4,5,2,1,3 226 276 196 false
+play_match 20 116
+num_played_games_for_player 116
+add_team 120
+buy_team 82 120
+play_match 81 118
+get_ith_pointless_ability 4
+buy_team 64 19
+add_team 121
+add_player 118 53 1,4,2,3,5 249 160 259 true
+remove_team 18
+remove_team 29
+get_team_points 86
+get_team_points 100
+num_played_games_for_player 84
+num_played_games_for_player 41
+add_player_cards 3 251
+get_partial_spirit 25
+get_team_points 114
+get_team_points 118
+get_player_cards 10
+play_match 5 118
+add_team 122
+get_ith_pointless_ability 63
+get_player_cards 75
+add_player 118 16 3,5,2,4,1 23 299 184 false
+num_played_games_for_player 36
+get_partial_spirit 60
+add_player_cards 96 45
+add_player_cards 73 70
+add_team 123
+add_player 118 98 1,2,3,5,4 44 112 156 true
+add_team 124
+get_ith_pointless_ability 20
+get_player_cards 21
+add_player_cards 73 73
+get_player_cards 71
+play_match 87 49
+remove_team 6
+add_team 125
+remove_team 116
+play_match 24 43
+get_player_cards 7
+get_ith_pointless_ability 36
+buy_team 53 91
+get_player_cards 111
+get_team_points 77
+add_player 118 121 2,3,1,5,4 84 286 71 true
+get_player_cards 99
+get_player_cards 75
+play_match 11 5
+play_match 16 108
+add_player 118 20 3,5,4,1,2 190 136 20 true
+buy_team 75 45
+get_ith_pointless_ability 17
+remove_team 122
+get_partial_spirit 91
+add_team 126
+add_team 127
+add_team 128
+add_player 118 82 5,4,1,3,2 196 38 98 true
+add_player 118 107 4,2,1,5,3 122 297 299 true
+play_match 74 68
+num_played_games_for_player 84
+add_player 118 62 2,3,1,5,4 226 4 17 true
+add_player 118 20 1,3,5,4,2 19 46 206 false
+play_match 77 128
+add_team 129
+play_match 128 40
+get_partial_spirit 10
+add_team 130
+get_partial_spirit 89
+get_team_points 34
+num_played_games_for_player 16
+add_player 118 84 5,1,2,3,4 107 33 6 true
+buy_team 30 74
+num_played_games_for_player 12
+add_player 118 60 1,2,3,4,5 206 214 28 true
+get_ith_pointless_ability 57
+add_player 118 26 1,4,3,5,2 243 270 96 true
+get_ith_pointless_ability 71
+add_team 131
+get_partial_spirit 6
+get_player_cards 55
+add_player 118 89 3,5,4,1,2 232 27 181 true
+get_ith_pointless_ability 88
+add_player 118 43 3,4,2,1,5 171 196 139 true
+num_played_games_for_player 31
+get_partial_spirit 51
+buy_team 85 107
+get_ith_pointless_ability 26
+get_team_points 12
+num_played_games_for_player 98
+add_player 118 72 3,1,2,5,4 300 179 128 true
+add_team 132
+num_played_games_for_player 26
+get_team_points 63
+get_player_cards 99
+get_team_points 44
+add_player 118 131 2,3,4,5,1 299 52 231 true
+remove_team 41
+get_player_cards 97
+get_partial_spirit 81
+add_player_cards 3 191
+add_player_cards 31 35
+get_partial_spirit 58
+get_team_points 10
+remove_team 63
+num_played_games_for_player 87
+play_match 40 49
+add_player 118 5 2,5,4,1,3 114 194 48 true
+remove_team 63
+remove_team 70
+add_player 118 127 4,1,3,2,5 96 35 162 true
+add_player 118 114 5,3,2,1,4 234 289 95 false
+add_player 118 50 4,5,2,3,1 147 164 229 true
+add_player 118 105 3,1,2,4,5 16 58 295 true
+add_player 118 126 2,5,3,4,1 177 122 166 true
+num_played_games_for_player 36
+play_match 30 91
+get_ith_pointless_ability 7
+add_player_cards 50 184
+remove_team 93
+add_player_cards 94 15
+get_partial_spirit 110
+get_ith_pointless_ability 25
+get_team_points 111
+get_ith_pointless_ability 40
+num_played_games_for_player 105
+add_team 133
+add_player 118 55 2,1,5,4,3 177 298 60 false
+get_team_points 51
+get_team_points 99
+get_ith_pointless_ability 50
+add_team 134
+get_partial_spirit 28
+play_match 14 59
+add_player_cards 97 284
+add_player 118 14 3,1,2,5,4 215 299 193 true
+add_team 135
+get_ith_pointless_ability 37
+get_player_cards 55
+add_player 118 104 4,2,5,1,3 32 245 233 false
+add_player 118 20 3,4,2,5,1 201 98 215 false
+add_player 118 70 1,3,4,5,2 203 217 42 false
+get_ith_pointless_ability 66
+add_player 118 118 4,3,5,2,1 36 49 12 true
+add_player 118 37 4,3,2,1,5 123 195 10 true
+get_team_points 35
+get_team_points 1
+get_ith_pointless_ability 79
+num_played_games_for_player 42
+play_match 24 72
+get_partial_spirit 69
+get_ith_pointless_ability 31
+add_player 118 121 5,1,2,3,4 103 254 100 false
+remove_team 116
+play_match 32 25
+get_player_cards 119
+add_player 118 24 2,5,4,3,1 193 38 22 true
+get_team_points 59
+add_team 136
+add_player 118 108 1,4,2,3,5 13 100 191 true
+add_player 118 49 1,5,2,4,3 240 277 109 false
+add_player 118 86 2,1,3,5,4 236 224 211 true
+add_player_cards 100 270
+get_ith_pointless_ability 23
+add_player 118 84 2,3,1,4,5 300 35 289 false
+add_team 137
+get_team_points 69
+add_team 138
+add_player 118 110 2,5,1,4,3 8 158 298 true
+get_team_points 119
+play_match 75 10
+buy_team 126 64
+add_player 118 128 2,1,5,4,3 212 291 32 true
+remove_team 52
+get_team_points 89
+add_player 118 107 1,2,5,3,4 158 194 150 false
+num_played_games_for_player 91
+remove_team 124
+add_player 118 127 1,4,3,5,2 70 218 192 true
+get_team_points 108
+remove_team 136
+remove_team 113
+play_match 123 93
+play_match 45 77
+add_team 139
+add_player 118 132 1,3,5,2,4 2 3 262 true
+add_team 140
+num_played_games_for_player 88
+remove_team 16
+add_player 118 71 5,3,4,2,1 12 203 94 false
+play_match 84 91
+get_team_points 81
+add_player 118 53 1,3,4,5,2 275 139 168 true
+get_partial_spirit 43
+buy_team 120 64
+get_player_cards 119
+get_ith_pointless_ability 25
+add_player 118 125 4,5,2,3,1 64 270 179 false
+buy_team 114 132
+add_player 118 89 1,5,4,3,2 173 69 140 true
+add_player 118 34 2,5,1,3,4 1 125 82 true
+add_player_cards 3 63
+add_team 141
+add_player 118 115 3,1,2,5,4 125 274 174 true
+remove_team 96
+add_player 118 46 4,3,2,5,1 151 291 185 false
+get_partial_spirit 91
+get_partial_spirit 15
+get_team_points 138
+get_ith_pointless_ability 33
+remove_team 120
+get_team_points 54
+add_player 118 78 4,5,2,1,3 214 20 46 false
+add_player 118 110 4,2,5,1,3 39 109 3 false
+remove_team 94
+get_player_cards 30
+get_partial_spirit 103
+add_player 118 139 4,3,1,2,5 115 41 162 true
+add_player 118 46 4,5,1,2,3 298 155 23 true
+remove_team 70
+get_player_cards 64
+buy_team 55 68
+add_player 118 48 3,2,5,4,1 237 138 21 true
+add_team 142
+num_played_games_for_player 96
+add_player 118 46 1,4,2,3,5 194 266 250 false
+add_player_cards 68 133
+add_player 118 137 1,5,4,3,2 83 279 222 false
+play_match 37 55
+add_player 118 19 1,3,5,4,2 292 251 63 true
+get_ith_pointless_ability 10
+get_player_cards 108
+add_team 143
+buy_team 10 115
+add_player 118 49 2,4,1,3,5 246 258 31 true
+add_player 118 108 4,3,5,1,2 275 72 168 true
+add_team 144
+num_played_games_for_player 82
+get_partial_spirit 38
+add_player_cards 7 135
+remove_team 48
+buy_team 92 104
+get_partial_spirit 53
+buy_team 108 40
+get_partial_spirit 107
+add_player_cards 117 51
+num_played_games_for_player 98
+buy_team 128 70
+get_ith_pointless_ability 61
+buy_team 110 36
+get_ith_pointless_ability 93
+add_player 118 64 1,2,5,4,3 94 237 182 false
+remove_team 62
+add_player 118 44 3,1,2,4,5 129 14 133 false
+get_partial_spirit 16
+add_team 145
+add_player 118 123 3,5,2,1,4 101 141 239 false
+buy_team 51 49
+add_player 118 56 1,2,5,3,4 287 121 41 false
+play_match 20 42
+get_team_points 68
+add_player 118 55 3,5,1,2,4 191 219 14 true
+buy_team 25 78
+play_match 34 12
+get_player_cards 1
+play_match 36 57
+add_player 118 141 2,3,1,5,4 81 191 100 false
+num_played_games_for_player 78
+get_partial_spirit 76
+get_player_cards 12
+num_played_games_for_player 47
+add_player 118 135 4,5,2,1,3 298 104 175 false
+add_player 118 35 4,1,5,3,2 279 185 166 true
+get_team_points 37
+remove_team 11
+get_ith_pointless_ability 87
+get_partial_spirit 88
+add_team 146
+get_partial_spirit 71
+get_player_cards 82
+get_ith_pointless_ability 52
+get_player_cards 96
+play_match 98 81
+get_ith_pointless_ability 93
+add_player 118 13 4,1,2,5,3 191 105 229 false
+add_team 147
+num_played_games_for_player 109
+get_ith_pointless_ability 55
+get_ith_pointless_ability 86
+num_played_games_for_player 70
+get_ith_pointless_ability 73
+add_team 148
+add_team 149
+get_partial_spirit 85
+remove_team 108
+play_match 36 54
+num_played_games_for_player 6
+get_team_points 143
+add_player 118 92 4,5,3,2,1 268 189 89 true
+buy_team 144 105
+add_player 118 35 3,4,1,5,2 182 233 22 false
+remove_team 110
+buy_team 32 26
+get_partial_spirit 92
+add_player_cards 3 112
+buy_team 33 89
+add_player_cards 68 43
+add_player_cards 24 104
+play_match 130 141
+get_team_points 82
+remove_team 34
+get_ith_pointless_ability 50
+add_player 118 91 5,3,1,4,2 107 282 132 true
+add_player_cards 7 61
+add_player 118 131 5,4,3,1,2 181 115 227 true
+add_player 118 90 5,4,2,1,3 77 5 13 false
+add_player 118 44 5,4,3,2,1 175 57 100 false
+buy_team 65 98
+get_ith_pointless_ability 47
+remove_team 49
+get_player_cards 43
+add_player 118 93 2,1,4,3,5 84 228 83 true
+add_player 118 54 3,5,2,1,4 9 68 272 true
+add_player 118 72 5,2,4,1,3 110 182 257 true
+add_player 118 123 5,4,2,1,3 268 249 126 false
+buy_team 32 129
+remove_team 53
+add_player_cards 27 208
+play_match 117 98
+num_played_games_for_player 49
+remove_team 95
+get_player_cards 81
+add_player 118 133 1,5,3,4,2 145 49 296 false
+get_team_points 81
+add_player_cards 31 36
+add_player 118 68 5,4,2,3,1 43 64 52 true
+get_ith_pointless_ability 105
+get_player_cards 90
+add_player_cards 94 112
+remove_team 104
+add_team 150
+buy_team 82 59
+add_player 118 50 5,4,2,1,3 264 257 203 true
+get_partial_spirit 43
+add_player 118 93 3,1,5,2,4 80 222 250 false
+add_team 151
+add_player_cards 13 258
+play_match 44 123
+buy_team 121 118
+add_player 118 11 5,1,4,2,3 92 290 195 true
+add_team 152
+get_player_cards 65
+remove_team 56
+play_match 64 33
+play_match 139 74
+get_ith_pointless_ability 15
+add_player 118 84 2,4,3,1,5 282 196 276 true
+add_player 118 98 3,2,1,5,4 104 105 199 false
+add_player 118 10 5,2,4,3,1 22 269 169 false
+get_team_points 107
+add_player 118 85 2,1,3,4,5 276 112 157 true
+add_player_cards 15 120
+add_team 153
+buy_team 87 93
+add_player 118 71 4,2,5,3,1 127 186 17 true
+add_player 118 89 5,4,3,1,2 167 239 254 false
+add_team 154
+add_team 155
+add_player_cards 24 243
+add_player 118 81 1,3,5,2,4 49 25 271 true
+get_team_points 148
+remove_team 11
+get_partial_spirit 46
+get_team_points 64
+buy_team 140 116
+add_team 156
+add_player_cards 23 254
+add_team 157
+get_partial_spirit 78
+add_player 118 37 1,2,5,3,4 70 223 140 true
+add_player_cards 103 71
+buy_team 106 55
+get_ith_pointless_ability 47
+add_player_cards 6 194
+add_player_cards 8 121
+add_player 118 32 3,4,1,5,2 95 229 241 true
+add_team 158
+get_team_points 45
+play_match 60 147
+get_partial_spirit 17
+buy_team 86 111
+get_partial_spirit 65
+get_team_points 92
+get_ith_pointless_ability 17
+num_played_games_for_player 115
+get_team_points 120
+get_ith_pointless_ability 75
+get_partial_spirit 28
+get_team_points 154
+add_player_cards 113 77
+add_player 118 138 1,3,4,5,2 101 210 292 false
+add_team 159
+add_player 118 117 5,2,4,3,1 298 289 190 true
+add_player_cards 17 283
+add_player 118 48 4,1,2,5,3 272 140 217 false
+get_player_cards 11
+add_player_cards 83 25
+get_partial_spirit 34
+get_team_points 1
+num_played_games_for_player 58
+get_ith_pointless_ability 43
+get_ith_pointless_ability 59
+get_team_points 35
+add_player_cards 8 179
+add_team 160
+buy_team 130 104
+get_player_cards 81
+add_team 161
+buy_team 159 77
+remove_team 54
+get_player_cards 41
+buy_team 152 150
+get_partial_spirit 24
+add_player 118 30 4,5,3,1,2 196 261 287 true
+add_team 162
+add_player 118 151 5,4,1,3,2 195 295 146 false
+add_player_cards 60 142
+add_player 118 20 1,5,3,2,4 112 206 272 true
+num_played_games_for_player 39
+remove_team 59
+add_player 118 116 3,5,1,4,2 281 197 60 true
+play_match 20 150
+add_player 118 99 2,3,1,4,5 266 223 20 true
+get_player_cards 97
+add_player 118 50 1,2,5,3,4 96 181 246 true
+get_ith_pointless_ability 71
+add_player 118 45 4,3,5,1,2 173 268 175 false
+add_player 118 116 2,5,3,4,1 24 252 246 true
+play_match 105 127
+add_player 118 77 2,1,4,5,3 92 7 18 false
+add_player 118 99 3,2,5,4,1 145 12 53 false
+add_player 118 34 4,2,5,3,1 4 224 95 false
+add_player_cards 111 161
+buy_team 123 150
+get_player_cards 112
+get_player_cards 40
+play_match 70 111
+num_played_games_for_player 92
+get_partial_spirit 80
+get_partial_spirit 31
+remove_team 118
+remove_team 144
+get_ith_pointless_ability 88
+remove_team 104
+get_team_points 85
+add_player 118 84 4,2,3,5,1 84 34 83 true
+remove_team 78
+get_ith_pointless_ability 97
+add_player 118 118 5,3,2,4,1 178 151 95 false
+add_player 118 139 2,4,3,5,1 214 181 256 true
+get_ith_pointless_ability 70
+buy_team 117 138
+get_team_points 147
+add_player 118 57 2,5,4,3,1 296 188 88 false
+play_match 161 140
+get_team_points 60
+get_player_cards 63
+play_match 114 105
+remove_team 36
+add_player 118 63 4,2,1,5,3 46 299 19 false
+get_player_cards 114
+add_team 163
+get_partial_spirit 102
+get_partial_spirit 90
+add_player 118 155 3,5,4,1,2 162 144 158 true
+get_partial_spirit 101
+get_player_cards 5
+get_team_points 132
+num_played_games_for_player 88
+get_player_cards 53
+get_partial_spirit 101
+add_player 118 45 4,5,3,2,1 260 24 113 false
+add_player_cards 62 53
+get_partial_spirit 95
+buy_team 162 57
+add_player 118 139 3,2,1,4,5 37 4 152 false
+remove_team 119
+add_player 118 17 4,1,5,3,2 111 52 65 true
+num_played_games_for_player 71
+buy_team 160 99
+num_played_games_for_player 83
+add_player_cards 56 85
+get_team_points 87
+add_player_cards 86 43
+num_played_games_for_player 47
+play_match 5 78
+get_player_cards 115
+remove_team 85
+get_team_points 93
+get_team_points 86
+get_ith_pointless_ability 14
+get_partial_spirit 15
+get_ith_pointless_ability 69
+add_player 118 157 3,2,5,1,4 141 159 129 true
+add_player 118 104 1,4,3,5,2 110 83 281 true
+buy_team 161 129
+get_player_cards 40
+add_player_cards 27 182
+remove_team 115
+buy_team 126 130
+add_team 164
+get_player_cards 1
+add_player_cards 50 30
+num_played_games_for_player 26
+play_match 116 12
+play_match 147 48
+num_played_games_for_player 77
+add_team 165
+get_ith_pointless_ability 86
+add_player 118 118 1,4,2,5,3 1 270 138 true
+get_partial_spirit 94
+add_player 118 151 4,1,3,5,2 64 294 128 false
+add_player 118 60 2,3,4,1,5 130 30 19 false
+get_ith_pointless_ability 91
+remove_team 36
+add_player_cards 50 115
+get_team_points 156
+remove_team 159
+get_team_points 149
+play_match 36 151
+num_played_games_for_player 97
+get_player_cards 68
+add_team 166
+add_player 118 137 2,1,4,5,3 170 52 39 false
+remove_team 163
+buy_team 69 30
+add_player 118 50 2,1,4,5,3 185 228 217 false
+get_ith_pointless_ability 94
+add_player_cards 107 289
+add_team 167
+play_match 55 162
+remove_team 64
+add_player 118 118 5,3,1,2,4 175 4 131 false
+get_ith_pointless_ability 30
+get_partial_spirit 31
+get_player_cards 24
+get_partial_spirit 2
+get_partial_spirit 22
+num_played_games_for_player 106
+remove_team 138
+get_partial_spirit 4
+add_player 118 11 4,3,1,2,5 40 200 185 true
+add_team 168
+get_team_points 86
+get_partial_spirit 43
+play_match 126 120
+add_player 118 51 1,2,3,5,4 118 122 105 false
+get_partial_spirit 78
+add_player 118 145 4,3,2,5,1 144 230 94 false
+add_player 118 138 4,2,3,1,5 220 149 127 true
+add_team 169
+buy_team 147 90
+buy_team 152 40
+add_team 170
+add_player 118 98 2,3,5,4,1 117 10 57 false
+add_player 118 146 3,5,4,1,2 41 78 195 true
+get_partial_spirit 85
+get_team_points 130
+add_player 118 105 3,1,4,2,5 163 156 70 false
+add_player_cards 91 171
+get_team_points 35
+add_player 118 140 1,4,5,3,2 207 92 190 false
+get_team_points 92
+get_player_cards 53
+get_team_points 151
+get_player_cards 3
+add_player 118 36 2,3,4,5,1 276 231 150 true
+num_played_games_for_player 97
+add_team 171
+get_player_cards 33
+add_team 172
+add_player 118 45 3,1,2,5,4 227 134 234 true
+play_match 140 31
+num_played_games_for_player 98
+get_ith_pointless_ability 39
+play_match 146 165
+remove_team 100
+add_team 173
+num_played_games_for_player 27
+get_partial_spirit 2
+play_match 77 141
+add_player 118 75 4,1,5,3,2 187 176 209 true
+add_player 118 69 2,1,5,3,4 232 32 264 false
+add_player 118 104 5,4,3,1,2 94 223 157 true
+add_player 118 45 5,1,4,3,2 191 181 169 false
+add_player 118 167 5,4,1,2,3 45 69 246 false
+remove_team 43
+get_team_points 117
+play_match 17 155
+get_partial_spirit 8
+num_played_games_for_player 23
+play_match 106 91
+get_player_cards 3
+get_team_points 118
+add_player_cards 17 247
+add_player 118 155 5,1,3,4,2 213 42 269 false
+get_partial_spirit 2
+add_team 174
+add_player_cards 53 208
+add_team 175
+remove_team 55
+add_player 118 111 5,4,3,2,1 152 94 150 true
+add_team 176
+add_player_cards 88 227
+play_match 59 151
+add_player_cards 16 196
+add_player 118 70 5,3,1,2,4 50 165 199 false
+get_player_cards 100
+add_team 177
+num_played_games_for_player 58
+get_team_points 27
+add_player 118 161 2,4,1,5,3 284 40 163 true
+num_played_games_for_player 106
+add_player 118 30 2,4,5,1,3 47 194 230 true
+get_player_cards 116
+add_player_cards 61 189
+add_player_cards 117 106
+add_team 178
+add_player 118 178 5,2,1,3,4 96 183 224 false
+num_played_games_for_player 24
+remove_team 40
+remove_team 131
+get_partial_spirit 54
+add_team 179
+get_player_cards 46
+buy_team 81 98
+num_played_games_for_player 5
+get_player_cards 74
+play_match 143 158
+add_player_cards 39 158
+add_player 118 42 5,3,4,2,1 242 128 136 false
+add_player 118 132 1,4,2,5,3 232 134 47 false
+add_player_cards 40 247
+add_player 118 123 5,4,3,2,1 118 289 200 false
+num_played_games_for_player 94
+add_player 118 109 2,5,3,4,1 150 273 50 true
+get_ith_pointless_ability 4
+add_player 118 99 3,5,2,4,1 128 185 122 false
+add_player 118 156 3,5,1,2,4 280 94 212 false
+get_partial_spirit 58
+add_player 118 57 4,1,5,3,2 56 300 88 true
+add_player 118 48 2,5,3,4,1 58 276 47 true
+get_team_points 86
+add_team 180
+add_player 118 121 2,1,3,4,5 114 197 211 true
+get_ith_pointless_ability 70
+add_player 118 87 2,4,5,3,1 4 78 219 false
+play_match 111 63
+get_partial_spirit 46
+num_played_games_for_player 102
+get_partial_spirit 8
+get_partial_spirit 47
+add_player 118 14 1,4,2,3,5 49 10 141 true
+get_team_points 170
+get_player_cards 52
+add_team 181
+add_player 118 140 3,4,2,1,5 109 137 142 true
+remove_team 158
+play_match 36 175
+get_partial_spirit 29
+add_player 118 26 3,5,1,2,4 49 117 48 false
+play_match 63 5
+get_partial_spirit 112
+add_player 118 69 2,4,3,5,1 38 211 48 false
+play_match 132 71
+play_match 31 115
+get_team_points 55
+add_player_cards 34 192
+buy_team 116 88
+add_player 118 138 2,3,5,1,4 153 296 180 true
+add_player 118 91 4,1,3,2,5 285 35 105 true
+add_player 118 92 2,1,3,4,5 288 160 10 false
+buy_team 42 48
+add_player 118 19 5,1,3,2,4 54 127 275 true
+get_player_cards 35
+play_match 78 28
+add_player 118 165 3,2,4,1,5 198 18 266 false
+add_team 182
+get_player_cards 54
+get_partial_spirit 53
+get_partial_spirit 69
+get_team_points 117
+get_team_points 120
+get_partial_spirit 97
+get_player_cards 109
+add_team 183
+play_match 16 25
+add_player_cards 53 99
+add_player_cards 13 218
+play_match 140 115
+num_played_games_for_player 107
+play_match 183 78
+get_team_points 132
+get_ith_pointless_ability 113
+add_player 118 20 4,5,2,1,3 213 51 7 true
+add_player 118 11 5,4,2,1,3 51 257 55 false
+get_player_cards 1
+add_player 118 139 5,4,1,3,2 102 188 207 false
+num_played_games_for_player 91
+add_player_cards 34 39
+get_ith_pointless_ability 110
+add_player 118 123 3,1,4,2,5 131 38 168 false
+add_player 118 24 4,1,2,5,3 197 222 284 false
+add_player 118 170 3,4,2,5,1 275 100 151 false
+buy_team 149 121
+add_team 184
+get_ith_pointless_ability 46
+get_team_points 105
+buy_team 139 133
+add_player_cards 53 66
+get_player_cards 114
+get_partial_spirit 103
+add_player 118 63 1,4,3,5,2 148 83 276 true
+add_player 118 84 5,3,1,2,4 275 132 271 true
+add_player_cards 47 166
+add_player 118 178 3,4,5,1,2 283 160 133 false
+play_match 104 71
+add_team 185
+get_ith_pointless_ability 120
+add_player_cards 1 50
+get_team_points 165
+get_partial_spirit 31
+get_partial_spirit 73
+num_played_games_for_player 22
+add_player 118 135 4,1,2,5,3 200 112 241 true
+add_team 186
